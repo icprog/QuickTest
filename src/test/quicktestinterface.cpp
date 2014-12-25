@@ -19,7 +19,7 @@ QuickTestInterface::QuickTestInterface(QObject *parent) :
 
     connect(this, SIGNAL(connectServer()), server, SLOT(slotConnect()));
     connect(server, SIGNAL(signalConnectStateChanged(int)), SLOT(connectStateChanged(int)));
-    connect(server, SIGNAL(signalConnectFaild(QString)), SLOT(connectServerFailure(QString));
+    connect(server, SIGNAL(signalConnectFaild(QString)), SLOT(connectServerFailure(QString)));
     connect(this, SIGNAL(pullRemoteYbData()), server, SLOT(slotRequireSoftPlateData()));
     connect(server, SIGNAL(signalSoftPlateDataReady()), SLOT(pullYbDataSuccess()));
     connect(server, SIGNAL(modifyYbSuccess()), this, SLOT(pushYbDataSuccess()));
@@ -598,7 +598,7 @@ void QuickTestInterface::connectStateChanged(int state)
     emit pullRemoteYbData();
 
 }
-
+#include <QMessageBox>
 void QuickTestInterface::connectServerFailure(const QString &errString)
 {
 
@@ -651,7 +651,7 @@ void QuickTestInterface::pullYbDataSuccess()
         SETTING_ITEM1 &item = pParam->yb_Item[i];
 
         Yb_Data *yb = new Yb_Data;
-
+    
         yb->name_cn = QString(item.desc);
         yb->name_ref = QString(item.ref);
         if (QString::fromLocal8Bit(item.val_Str) == "0") {
