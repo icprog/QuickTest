@@ -1,0 +1,109 @@
+<model>
+	<class name="线路保护" no="1">
+		<status name="主保护" no="11">
+			<test name="纵联差动" no="1101" status="1">
+			</test>
+			<test name="零序差动" no="1102" status="1">
+			</test>
+			<test name="分相差动" no="1103" status="1">
+			</test>
+			<test name="突变量差动" no="1104" status="1">
+			</test>
+			<test name="纵联距离" no="1105" status="1">
+			</test>
+			<test name="纵联方向" no="1106" status="1">
+			</test>
+			<test name="纵联零序" no="1107" status="1">
+			</test>
+		</status>
+		<status name="后备保护" no="12">
+			<test name="快速距离" no="1201" status="1">
+			</test>
+			<test name="接地距离1段" no="1202" status="1"></test>
+			<test name="接地距离2段" no="1203" status="1"></test>
+			<test name="接地距离3段" no="1204" status="1"></test>
+			<test name="相间距离1段" no="1205" status="1"></test>
+			<test name="相间距离2段" no="1206" status="1"></test>
+			<test name="相间距离3段" no="1207" status="1"></test>
+			<test name="距离加速动作" no="1208" status="1"></test>
+			<test name="零序电流1段" no="1209" status="1"></test>
+			<test name="零序电流2段" no="1210" status="1"></test>
+			<test name="零序电流3段" no="1211" status="1"></test>
+			<test name="零序电流4段" no="1212" status="1"></test>
+			<test name="零序过流加速" no="1213" status="1"></test>
+		</status>
+	</class>
+	<class name="变压器保护" no="2">
+		<status name="主保护" no="21">
+			<test name="比率差动" no="2101"></test>
+			<test name="差动速断" no="2102"></test>
+			<test name="零序差动" no="2103"></test>
+			<test name="工频变化量差动" no="2104"></test>
+			<test name="分侧差动" no="2105"></test>
+		</status>
+		<status name="高后备" no="22">
+			<test name="相间阻抗1时限" no="2201"></test>
+			<test name="相间阻抗2时限" no="2202"></test>
+			<test name="接地阻抗1时限" no="2203"></test>
+			<test name="接地阻抗2时限" no="2204"></test>
+			<test name="复压闭锁过流1段1时限" no="2205"></test>
+			<test name="复压闭锁过流1段2时限" no="2206"></test>
+			<test name="高压侧复压闭锁过流2段" no="2207"></test>
+			<test name="零序过流1段1时限" no="2208"></test>
+			<test name="零序过流1段2时限" no="2209"></test>
+			<test name="零序过流2段" no="2210"></test>
+			<test name="间隙零序过压保护" no="2211"></test>
+		</status>
+		<status name="中后备" no="23">
+			<test name="相间阻抗1时限" no="2301"></test>
+			<test name="相间阻抗2时限" no="2302"></test>
+			<test name="接地阻抗1时限" no="2303"></test>
+			<test name="接地阻抗2时限" no="2304"></test>
+			<test name="复压闭锁过流1段1时限" no="2305"></test>
+			<test name="复压闭锁过流1段2时限" no="2306"></test>
+			<test name="高压侧复压闭锁过流2段" no="2307"></test>
+			<test name="零序过流1段1时限" no="2308"></test>
+			<test name="零序过流1段2时限" no="2309"></test>
+			<test name="零序过流2段" no="2310"></test>
+			<test name="间隙零序过压保护" no="2311"></test>
+		</status>
+		<status name="低后备" no="24">
+			<test name="过流1时限" no="2401"></test>
+			<test name="过流2时限" no="2402"></test>
+			<test name="过流3时限" no="2403"></test>
+			<test name="复压闭锁过流1时限" no="2404"></test>
+			<test name="复压闭锁过流2时限" no="2405"></test>
+			<test name="复压闭锁过流3时限" no="2406"></test>
+		</status>
+	</class>
+	<class name="断路器保护" no="3"> 
+		<status name="保护功能" no="31">
+			<test name="过流保护1段" no="3101"></test>
+			<test name="过流保护2段" no="3102"></test>
+			<test name="零序过流" no="3103" ></test>
+			<test name="三相不一致保护" no="3104"></test>
+			<test name="重合闸" no="3105"></test>
+		</status>
+	</class>
+	<class name="母线保护" no="4">
+		<status name="差动" no="41">
+			<test name="变化量差动保护" no="4101"></test>
+			<test name="母线失灵动作" no="4102"></test>
+		</status>
+	</class>
+	<class name="电抗器保护" no="5">
+		<status name="差动保护" no="51">
+			<test name="差动速断" no="5101"></test>
+			<test name="差动保护" no="5102"></test>
+			<test name="零序差动" no="5103"></test>
+			<test name="零序差速断" no="5104"></test>
+		</status>
+		<status name="过流保护" no="52">
+			<test name="零序过流保护" no="5201"></test>
+			<test name="主电抗过流" no="5202"></test>
+			<test name="小电抗过流" no="5203"></test>
+			<test name="主电抗过负荷" no="5204"></test>
+			<test name="小电抗过负荷" no="5205"></test>
+		</status>
+	</class>
+</model>

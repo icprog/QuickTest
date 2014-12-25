@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SoftPlateGroup>
+    <SoftPlate desc="纵联差动保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna2$stVal"/>
+    <SoftPlate desc="距离保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna3$stVal"/>
+    <SoftPlate desc="零序保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna4$stVal"/>
+    <SoftPlate desc="过流保护(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$OCSEna$stVal"/>
+    <SoftPlate desc="光纤通道一(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna7$stVal"/>
+    <SoftPlate desc="光纤通道二(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna8$stVal"/>
+    <SoftPlate desc="停用重合闸(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$RecSSEna$stVal"/>
+    <SoftPlate desc="远方修改定值(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna15$stVal"/>
+</SoftPlateGroup>

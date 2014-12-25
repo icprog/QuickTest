@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='GBK'?>
+<SYS scl_fileName_mCheck="" defaultSta="" name="" defaultEqu="">
+    <DOMAIN type="1" name="test">
+        <STA type="2" name="test">
+            <EQU port="102" scl_enabled="0" model="1" scl_file_name="config/CSC103BDN.CID" ip="192.168.1.12" ied_name="CSC103BDN" access_point_name="S1" type="3" id="10" name="CSC103BDN()"/>
+        </STA>
+    </DOMAIN>
+    <ENVIR proDir="E:/share/mypro/build-QuickTest/debug" eventCount="200" SaveToFile="0" BeckonWave="0" sclPath="" CfgDir="E:/share/mypro/build-QuickTest/debug/config" waveFileName="" DataDir="E:/share/mypro/build-QuickTest/debug/data" CircleInterval="1000"/>
+    <USERROOT UserGrp="" Password="" UserName=""/>
+</SYS>

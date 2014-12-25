@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/xqd">
+        <file>icon/up_mask.png</file>
+        <file>icon/down_mask.png</file>
+    </qresource>
+</RCC>

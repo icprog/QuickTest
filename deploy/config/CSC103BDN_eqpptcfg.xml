@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='GBK'?>
+<Cfg>
+    <SubSta name=""/>
+    <NetWork>
+        <SubNet desc="" type="8-MMS" name="MMS">
+            <Ied actSG="1" desc="" type="S1" numOfSGs="32" name="CSC103BDN" manufacturer="SF">
+                <Goose attribId="30" rpt_datSet="" rpt_max="0" datSet="CSC103BDNLD0/LLN0$dsAlarm" rpt_name="" datCount="12" rpt_rptID="">
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="I类告警总" dataType="0" index="1" datSetName="CSC103BDNLD0/GGIO2$ST$SumIAlm$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="模拟量采集错" dataType="0" index="2" datSetName="CSC103BDNLD0/GGIO2$ST$Alm1$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="设备参数错" dataType="0" index="3" datSetName="CSC103BDNLD0/GGIO2$ST$Alm3$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="ROM和校验错" dataType="0" index="4" datSetName="CSC103BDNLD0/GGIO2$ST$Alm4$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="定值错" dataType="0" index="5" datSetName="CSC103BDNLD0/GGIO2$ST$Alm5$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="定值区指针错" dataType="0" index="6" datSetName="CSC103BDNLD0/GGIO2$ST$Alm6$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开出不响应" dataType="0" index="7" datSetName="CSC103BDNLD0/GGIO2$ST$Alm7$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开出击穿" dataType="0" index="8" datSetName="CSC103BDNLD0/GGIO2$ST$Alm8$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="软压板错" dataType="0" index="9" datSetName="CSC103BDNLD0/GGIO2$ST$Alm14$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="系统配置错" dataType="0" index="10" datSetName="CSC103BDNLD0/GGIO2$ST$Alm15$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开出配置错" dataType="0" index="11" datSetName="CSC103BDNLD0/GGIO2$ST$Alm21$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开出EEPROM出错" dataType="0" index="12" datSetName="CSC103BDNLD0/GGIO2$ST$Alm31$stVal"/>
+                </Goose>
+                <Goose attribId="30" rpt_datSet="" rpt_max="0" datSet="CSC103BDNLD0/LLN0$dsWarning" rpt_name="" datCount="67" rpt_rptID="">
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="II类告警总" dataType="0" index="1" datSetName="CSC103BDNLD0/GGIO2$ST$SumIIAlm$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="CT变比差异大" dataType="0" index="2" datSetName="CSC103BDNLD0/GGIO2$ST$Alm2$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="SRAM自检异常" dataType="0" index="3" datSetName="CSC103BDNLD0/GGIO2$ST$Alm9$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="FLASH自检异常" dataType="0" index="4" datSetName="CSC103BDNLD0/GGIO2$ST$Alm10$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压开入告警" dataType="0" index="5" datSetName="CSC103BDNLD0/GGIO2$ST$Alm11$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道检修差动退出" dataType="0" index="6" datSetName="CSC103BDNLD0/GGIO2$ST$Alm12$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="电流不平衡告警" dataType="0" index="7" datSetName="CSC103BDNLD0/GGIO2$ST$Alm13$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁三相不一致" dataType="0" index="8" datSetName="CSC103BDNLD0/GGIO2$ST$Alm16$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="不一致动作失败" dataType="0" index="9" datSetName="CSC103BDNLD0/GGIO2$ST$Alm17$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联压板不一致" dataType="0" index="10" datSetName="CSC103BDNLD0/GGIO2$ST$Alm18$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动压板投错" dataType="0" index="11" datSetName="CSC103BDNLD0/GGIO2$ST$Alm19$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开入配置错" dataType="0" index="12" datSetName="CSC103BDNLD0/GGIO2$ST$Alm20$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开入通讯中断" dataType="0" index="13" datSetName="CSC103BDNLD0/GGIO2$ST$Alm22$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开出通讯中断" dataType="0" index="14" datSetName="CSC103BDNLD0/GGIO2$ST$Alm23$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="传动状态未复归" dataType="0" index="15" datSetName="CSC103BDNLD0/GGIO2$ST$Alm24$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开入击穿" dataType="0" index="16" datSetName="CSC103BDNLD0/GGIO2$ST$Alm26$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开入输入不正常" dataType="0" index="17" datSetName="CSC103BDNLD0/GGIO2$ST$Alm27$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="双位置输入不一致" dataType="0" index="18" datSetName="CSC103BDNLD0/GGIO2$ST$Alm28$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开入自检回路出错" dataType="0" index="19" datSetName="CSC103BDNLD0/GGIO2$ST$Alm29$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="开入EEPROM出错" dataType="0" index="20" datSetName="CSC103BDNLD0/GGIO2$ST$Alm30$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线告警" dataType="0" index="21" datSetName="CSC103BDNLD0/GGIO2$ST$Alm32$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过负荷告警" dataType="0" index="22" datSetName="CSC103BDNLD0/GGIO2$ST$Alm34$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联通道故障" dataType="0" index="23" datSetName="CSC103BDNLD0/GGIO2$ST$Alm35$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联通道3DB告警" dataType="0" index="24" datSetName="CSC103BDNLD0/GGIO2$ST$Alm36$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联通信设备告警" dataType="0" index="25" datSetName="CSC103BDNLD0/GGIO2$ST$Alm38$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="CT断线告警" dataType="0" index="26" datSetName="CSC103BDNLD0/GGIO2$ST$Alm40$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳位A开入异常" dataType="0" index="27" datSetName="CSC103BDNLD0/GGIO2$ST$Alm41$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳位B开入异常" dataType="0" index="28" datSetName="CSC103BDNLD0/GGIO2$ST$Alm42$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳位C开入异常" dataType="0" index="29" datSetName="CSC103BDNLD0/GGIO2$ST$Alm43$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸压板异常" dataType="0" index="30" datSetName="CSC103BDNLD0/GGIO2$ST$Alm44$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="检同期电压异常" dataType="0" index="31" datSetName="CSC103BDNLD0/GGIO2$ST$Alm45$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="本侧CT断线" dataType="0" index="32" datSetName="CSC103BDNLD0/GGIO2$ST$Alm46$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧CT断线" dataType="0" index="33" datSetName="CSC103BDNLD0/GGIO2$ST$Alm47$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="长期有差流" dataType="0" index="34" datSetName="CSC103BDNLD0/GGIO2$ST$Alm48$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="同步方式设置出错" dataType="0" index="35" datSetName="CSC103BDNLD0/GGIO2$ST$Alm49$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一环回错" dataType="0" index="36" datSetName="CSC103BDNLD0/GGIO2$ST$Alm50$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二环回错" dataType="0" index="37" datSetName="CSC103BDNLD0/GGIO2$ST$Alm51$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一通信中断" dataType="0" index="38" datSetName="CSC103BDNLD0/GGIO2$ST$Alm52$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二通信中断" dataType="0" index="39" datSetName="CSC103BDNLD0/GGIO2$ST$Alm53$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一无采样报文" dataType="0" index="40" datSetName="CSC103BDNLD0/GGIO2$ST$Alm54$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二无采样报文" dataType="0" index="41" datSetName="CSC103BDNLD0/GGIO2$ST$Alm55$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸开入异常" dataType="0" index="42" datSetName="CSC103BDNLD0/GGIO2$ST$Alm56$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相相序不对应" dataType="0" index="43" datSetName="CSC103BDNLD0/GGIO2$ST$Alm57$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="模拟通道异常" dataType="0" index="44" datSetName="CSC103BDNLD0/GGIO2$ST$Alm58$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="外部停信开入错" dataType="0" index="45" datSetName="CSC103BDNLD0/GGIO2$ST$Alm60$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="外接3I0接反" dataType="0" index="46" datSetName="CSC103BDNLD0/GGIO2$ST$Alm61$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护永跳失败" dataType="0" index="47" datSetName="CSC103BDNLD0/GGIO2$ST$Alm62$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="3次谐波过量告警" dataType="0" index="48" datSetName="CSC103BDNLD0/GGIO2$ST$Alm63$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道环回长期投入" dataType="0" index="49" datSetName="CSC103BDNLD0/GGIO2$ST$Alm64$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联控制字错" dataType="0" index="50" datSetName="CSC103BDNLD0/GGIO2$ST$Alm65$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸控制字错" dataType="0" index="51" datSetName="CSC103BDNLD0/GGIO2$ST$Alm66$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动压板不一致" dataType="0" index="52" datSetName="CSC103BDNLD0/GGIO2$ST$Alm67$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护地址错一" dataType="0" index="53" datSetName="CSC103BDNLD0/GGIO2$ST$Alm69$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护地址错二" dataType="0" index="54" datSetName="CSC103BDNLD0/GGIO2$ST$Alm70$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一二交叉接错" dataType="0" index="55" datSetName="CSC103BDNLD0/GGIO2$ST$Alm71$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧通信异常" dataType="0" index="56" datSetName="CSC103BDNLD0/GGIO2$ST$Alm72$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="工作于调试定值区" dataType="0" index="57" datSetName="CSC103BDNLD0/GGIO2$ST$Alm73$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="异常" dataType="0" index="58" datSetName="CSC103BDNLD0/GGIO3$ST$Alm1$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="设备参数不一致" dataType="0" index="59" datSetName="CSC103BDNLD0/GGIO3$ST$Alm2$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="定值区号不一致" dataType="0" index="60" datSetName="CSC103BDNLD0/GGIO3$ST$Alm3$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="定值不一致" dataType="0" index="61" datSetName="CSC103BDNLD0/GGIO3$ST$Alm4$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="压板不一致" dataType="0" index="62" datSetName="CSC103BDNLD0/GGIO3$ST$Alm5$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="LON1通讯中断" dataType="0" index="63" datSetName="CSC103BDNLD0/GGIO3$ST$Alm6$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="LON2通讯中断" dataType="0" index="64" datSetName="CSC103BDNLD0/GGIO3$ST$Alm7$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="压板模式不一致" dataType="0" index="65" datSetName="CSC103BDNLD0/GGIO3$ST$Alm9$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="召唤配置无应答" dataType="0" index="66" datSetName="CSC103BDNLD0/GGIO3$ST$Alm10$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PLC逻辑校验出错" dataType="0" index="67" datSetName="CSC103BDNLD0/GGIO3$ST$Alm11$stVal"/>
+                </Goose>
+                <Goose attribId="0" rpt_datSet="" rpt_max="0" datSet="CSC103BDNLD0/LLN0$dsRelayDin" rpt_name="" datCount="25" rpt_rptID="">
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="信号复归" dataType="0" index="1" datSetName="CSC103BDNLD0/GGIO1$ST$Ind1$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相跳闸位置TWJA" dataType="0" index="2" datSetName="CSC103BDNLD0/GGIO1$ST$Ind2$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相跳闸位置TWJB" dataType="0" index="3" datSetName="CSC103BDNLD0/GGIO1$ST$Ind3$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相跳闸位置TWJC" dataType="0" index="4" datSetName="CSC103BDNLD0/GGIO1$ST$Ind4$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸" dataType="0" index="5" datSetName="CSC103BDNLD0/GGIO1$ST$Ind5$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸" dataType="0" index="6" datSetName="CSC103BDNLD0/GGIO1$ST$Ind6$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压闭锁重合闸" dataType="0" index="7" datSetName="CSC103BDNLD0/GGIO1$ST$Ind7$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护(硬)" dataType="0" index="8" datSetName="CSC103BDNLD0/LLN0$ST$Ena2$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离保护(硬)" dataType="0" index="9" datSetName="CSC103BDNLD0/LLN0$ST$Ena3$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序保护(硬)" dataType="0" index="10" datSetName="CSC103BDNLD0/LLN0$ST$Ena4$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流保护(硬)" dataType="0" index="11" datSetName="CSC103BDNLD0/LLN0$ST$OCEna$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="光纤通道一(硬)" dataType="0" index="12" datSetName="CSC103BDNLD0/LLN0$ST$Ena7$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="光纤通道二(硬)" dataType="0" index="13" datSetName="CSC103BDNLD0/LLN0$ST$Ena8$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护检修状态(硬)" dataType="0" index="14" datSetName="CSC103BDNLD0/LLN0$ST$Ena10$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相重合闸(硬)" dataType="0" index="15" datSetName="CSC103BDNLD0/LLN0$ST$Ena11$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相重合闸(硬)" dataType="0" index="16" datSetName="CSC103BDNLD0/LLN0$ST$Ena12$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="综合重合闸(硬)" dataType="0" index="17" datSetName="CSC103BDNLD0/LLN0$ST$Ena13$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="停用重合闸(硬)" dataType="0" index="18" datSetName="CSC103BDNLD0/LLN0$ST$RecSEna$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护(总)" dataType="0" index="19" datSetName="CSC103BDNLD0/LLN0$ST$AllEna2$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离保护(总)" dataType="0" index="20" datSetName="CSC103BDNLD0/LLN0$ST$AllEna3$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序保护(总)" dataType="0" index="21" datSetName="CSC103BDNLD0/LLN0$ST$AllEna4$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流保护(总)" dataType="0" index="22" datSetName="CSC103BDNLD0/LLN0$ST$AllOCEna$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="光纤通道一(总)" dataType="0" index="23" datSetName="CSC103BDNLD0/LLN0$ST$AllEna7$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="光纤通道二(总)" dataType="0" index="24" datSetName="CSC103BDNLD0/LLN0$ST$AllEna8$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="停用重合闸(总)" dataType="0" index="25" datSetName="CSC103BDNLD0/LLN0$ST$AllRecSEna$stVal"/>
+                </Goose>
+                <Goose attribId="1" rpt_datSet="" rpt_max="0" datSet="CSC103BDNPROT/LLN0$dsRelayEna" rpt_name="" datCount="8" rpt_rptID="">
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护(软)" dataType="0" index="1" datSetName="CSC103BDNPROT/LLN0$ST$SoftEna2$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离保护(软)" dataType="0" index="2" datSetName="CSC103BDNPROT/LLN0$ST$SoftEna3$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序保护(软)" dataType="0" index="3" datSetName="CSC103BDNPROT/LLN0$ST$SoftEna4$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流保护(软)" dataType="0" index="4" datSetName="CSC103BDNPROT/LLN0$ST$OCSEna$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="光纤通道一(软)" dataType="0" index="5" datSetName="CSC103BDNPROT/LLN0$ST$SoftEna7$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="光纤通道二(软)" dataType="0" index="6" datSetName="CSC103BDNPROT/LLN0$ST$SoftEna8$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="停用重合闸(软)" dataType="0" index="7" datSetName="CSC103BDNPROT/LLN0$ST$RecSSEna$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方修改定值(软)" dataType="0" index="8" datSetName="CSC103BDNPROT/LLN0$ST$SoftEna15$stVal"/>
+                </Goose>
+                <Goose attribId="40" rpt_datSet="" rpt_max="0" datSet="CSC103BDNPROT/LLN0$dsTripInfo" rpt_name="" datCount="111" rpt_rptID="">
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护动作" dataType="0" index="1" datSetName="CSC103BDNPROT/GAPC1$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护动作" dataType="0" index="2" datSetName="CSC103BDNPROT/GAPC1$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护动作" dataType="0" index="3" datSetName="CSC103BDNPROT/GAPC1$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护动作" dataType="0" index="4" datSetName="CSC103BDNPROT/GAPC1$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护动作" dataType="0" index="5" datSetName="CSC103BDNPROT/GAPC1$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障测距(公里)" dataType="0" index="6" datSetName="CSC103BDNPROT/RFLO1$MX$FltDiskm$mag$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相别" dataType="0" index="7" datSetName="CSC103BDNPROT/RFLO1$ST$FltLoop$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障电流Ia" dataType="0" index="8" datSetName="CSC103BDNPROT/RFLO1$MX$FltAmp$phsA$cVal$ang$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障电流Ia" dataType="0" index="9" datSetName="CSC103BDNPROT/RFLO1$MX$FltAmp$phsA$cVal$mag$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障电流Ib" dataType="0" index="10" datSetName="CSC103BDNPROT/RFLO1$MX$FltAmp$phsB$cVal$ang$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障电流Ib" dataType="0" index="11" datSetName="CSC103BDNPROT/RFLO1$MX$FltAmp$phsB$cVal$mag$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障电流Ic" dataType="0" index="12" datSetName="CSC103BDNPROT/RFLO1$MX$FltAmp$phsC$cVal$ang$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障电流Ic" dataType="0" index="13" datSetName="CSC103BDNPROT/RFLO1$MX$FltAmp$phsC$cVal$mag$f"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="14" datSetName="CSC103BDNPROT/PDIF1$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="15" datSetName="CSC103BDNPROT/PDIF1$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="16" datSetName="CSC103BDNPROT/PDIF1$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="17" datSetName="CSC103BDNPROT/PDIF1$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="18" datSetName="CSC103BDNPROT/PDIF1$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="19" datSetName="CSC103BDNPROT/PDIF1$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="20" datSetName="CSC103BDNPROT/PDIF1$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="21" datSetName="CSC103BDNPROT/PDIF1$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="22" datSetName="CSC103BDNPROT/PDIF1$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护启动" dataType="0" index="23" datSetName="CSC103BDNPROT/PDIF1$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="24" datSetName="CSC103BDNPROT/PDIF2$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="25" datSetName="CSC103BDNPROT/PDIF2$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="26" datSetName="CSC103BDNPROT/PDIF2$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="27" datSetName="CSC103BDNPROT/PDIF2$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="28" datSetName="CSC103BDNPROT/PDIF2$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="29" datSetName="CSC103BDNPROT/PDIF2$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="30" datSetName="CSC103BDNPROT/PDIF2$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="31" datSetName="CSC103BDNPROT/PDIF2$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="32" datSetName="CSC103BDNPROT/PDIF2$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="阻抗元件启动" dataType="0" index="33" datSetName="CSC103BDNPROT/PDIF2$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="34" datSetName="CSC103BDNPROT/PDIF3$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="35" datSetName="CSC103BDNPROT/PDIF3$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="36" datSetName="CSC103BDNPROT/PDIF3$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="37" datSetName="CSC103BDNPROT/PDIF3$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="38" datSetName="CSC103BDNPROT/PDIF3$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="39" datSetName="CSC103BDNPROT/PDIF3$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="40" datSetName="CSC103BDNPROT/PDIF3$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="41" datSetName="CSC103BDNPROT/PDIF3$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="42" datSetName="CSC103BDNPROT/PDIF3$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序辅助启动" dataType="0" index="43" datSetName="CSC103BDNPROT/PDIF3$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="44" datSetName="CSC103BDNPROT/PDIF4$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="45" datSetName="CSC103BDNPROT/PDIF4$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="46" datSetName="CSC103BDNPROT/PDIF4$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="47" datSetName="CSC103BDNPROT/PDIF4$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="48" datSetName="CSC103BDNPROT/PDIF4$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="49" datSetName="CSC103BDNPROT/PDIF4$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="50" datSetName="CSC103BDNPROT/PDIF4$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="51" datSetName="CSC103BDNPROT/PDIF4$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="52" datSetName="CSC103BDNPROT/PDIF4$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="静稳失稳启动" dataType="0" index="53" datSetName="CSC103BDNPROT/PDIF4$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护三跳失败" dataType="0" index="54" datSetName="CSC103BDNPROT/PDIF8$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护三跳失败" dataType="0" index="55" datSetName="CSC103BDNPROT/PDIF8$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护三跳失败" dataType="0" index="56" datSetName="CSC103BDNPROT/PDIF8$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护三跳失败" dataType="0" index="57" datSetName="CSC103BDNPROT/PDIF8$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护三跳失败" dataType="0" index="58" datSetName="CSC103BDNPROT/PDIF8$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护单跳失败" dataType="0" index="59" datSetName="CSC103BDNPROT/PDIF9$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护单跳失败" dataType="0" index="60" datSetName="CSC103BDNPROT/PDIF9$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护单跳失败" dataType="0" index="61" datSetName="CSC103BDNPROT/PDIF9$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护单跳失败" dataType="0" index="62" datSetName="CSC103BDNPROT/PDIF9$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护单跳失败" dataType="0" index="63" datSetName="CSC103BDNPROT/PDIF9$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障测距" dataType="0" index="64" datSetName="CSC103BDNPROT/PDIF10$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障测距" dataType="0" index="65" datSetName="CSC103BDNPROT/PDIF10$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障测距" dataType="0" index="66" datSetName="CSC103BDNPROT/PDIF10$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障测距" dataType="0" index="67" datSetName="CSC103BDNPROT/PDIF10$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障测距" dataType="0" index="68" datSetName="CSC103BDNPROT/PDIF10$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="测距阻抗" dataType="0" index="69" datSetName="CSC103BDNPROT/PDIF11$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="测距阻抗" dataType="0" index="70" datSetName="CSC103BDNPROT/PDIF11$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="测距阻抗" dataType="0" index="71" datSetName="CSC103BDNPROT/PDIF11$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="测距阻抗" dataType="0" index="72" datSetName="CSC103BDNPROT/PDIF11$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="测距阻抗" dataType="0" index="73" datSetName="CSC103BDNPROT/PDIF11$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅰ段动作" dataType="0" index="74" datSetName="CSC103BDNPROT/PDIF12$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅰ段动作" dataType="0" index="75" datSetName="CSC103BDNPROT/PDIF12$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅰ段动作" dataType="0" index="76" datSetName="CSC103BDNPROT/PDIF12$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅰ段动作" dataType="0" index="77" datSetName="CSC103BDNPROT/PDIF12$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅰ段动作" dataType="0" index="78" datSetName="CSC103BDNPROT/PDIF12$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅱ段动作" dataType="0" index="79" datSetName="CSC103BDNPROT/PDIF14$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅱ段动作" dataType="0" index="80" datSetName="CSC103BDNPROT/PDIF14$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅱ段动作" dataType="0" index="81" datSetName="CSC103BDNPROT/PDIF14$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅱ段动作" dataType="0" index="82" datSetName="CSC103BDNPROT/PDIF14$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅱ段动作" dataType="0" index="83" datSetName="CSC103BDNPROT/PDIF14$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅲ段动作" dataType="0" index="84" datSetName="CSC103BDNPROT/PDIF15$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅲ段动作" dataType="0" index="85" datSetName="CSC103BDNPROT/PDIF15$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅲ段动作" dataType="0" index="86" datSetName="CSC103BDNPROT/PDIF15$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅲ段动作" dataType="0" index="87" datSetName="CSC103BDNPROT/PDIF15$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序过流Ⅲ段动作" dataType="0" index="88" datSetName="CSC103BDNPROT/PDIF15$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序定时限加速动" dataType="0" index="89" datSetName="CSC103BDNPROT/PDIF19$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序定时限加速动" dataType="0" index="90" datSetName="CSC103BDNPROT/PDIF19$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序定时限加速动" dataType="0" index="91" datSetName="CSC103BDNPROT/PDIF19$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序定时限加速动" dataType="0" index="92" datSetName="CSC103BDNPROT/PDIF19$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序定时限加速动" dataType="0" index="93" datSetName="CSC103BDNPROT/PDIF19$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序手合加速动作" dataType="0" index="94" datSetName="CSC103BDNPROT/PDIF21$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序手合加速动作" dataType="0" index="95" datSetName="CSC103BDNPROT/PDIF21$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序手合加速动作" dataType="0" index="96" datSetName="CSC103BDNPROT/PDIF21$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序手合加速动作" dataType="0" index="97" datSetName="CSC103BDNPROT/PDIF21$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序手合加速动作" dataType="0" index="98" datSetName="CSC103BDNPROT/PDIF21$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸动作" dataType="0" index="99" datSetName="CSC103BDNPROT/PDIF22$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸动作" dataType="0" index="100" datSetName="CSC103BDNPROT/PDIF22$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸动作" dataType="0" index="101" datSetName="CSC103BDNPROT/PDIF22$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸动作" dataType="0" index="102" datSetName="CSC103BDNPROT/PDIF22$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸动作" dataType="0" index="103" datSetName="CSC103BDNPROT/PDIF22$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合失败" dataType="0" index="104" datSetName="CSC103BDNPROT/PDIF23$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合失败" dataType="0" index="105" datSetName="CSC103BDNPROT/PDIF23$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合失败" dataType="0" index="106" datSetName="CSC103BDNPROT/PDIF23$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合失败" dataType="0" index="107" datSetName="CSC103BDNPROT/PDIF23$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合失败" dataType="0" index="108" datSetName="CSC103BDNPROT/PDIF23$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="109" datSetName="CSC103BDNPROT/PDIF24$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="110" datSetName="CSC103BDNPROT/PDIF24$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="111" datSetName="CSC103BDNPROT/PDIF24$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="112" datSetName="CSC103BDNPROT/PDIF24$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="113" datSetName="CSC103BDNPROT/PDIF24$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="114" datSetName="CSC103BDNPROT/PDIF24$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="115" datSetName="CSC103BDNPROT/PDIF24$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="116" datSetName="CSC103BDNPROT/PDIF24$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="117" datSetName="CSC103BDNPROT/PDIF24$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳启动重合" dataType="0" index="118" datSetName="CSC103BDNPROT/PDIF24$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="119" datSetName="CSC103BDNPROT/PDIF25$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="120" datSetName="CSC103BDNPROT/PDIF25$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="121" datSetName="CSC103BDNPROT/PDIF25$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="122" datSetName="CSC103BDNPROT/PDIF25$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="123" datSetName="CSC103BDNPROT/PDIF25$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="124" datSetName="CSC103BDNPROT/PDIF25$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="125" datSetName="CSC103BDNPROT/PDIF25$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="126" datSetName="CSC103BDNPROT/PDIF25$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="127" datSetName="CSC103BDNPROT/PDIF25$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳启动重合" dataType="0" index="128" datSetName="CSC103BDNPROT/PDIF25$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="129" datSetName="CSC103BDNPROT/PDIF26$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="130" datSetName="CSC103BDNPROT/PDIF26$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="131" datSetName="CSC103BDNPROT/PDIF26$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="132" datSetName="CSC103BDNPROT/PDIF26$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="133" datSetName="CSC103BDNPROT/PDIF26$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="134" datSetName="CSC103BDNPROT/PDIF26$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="135" datSetName="CSC103BDNPROT/PDIF26$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="136" datSetName="CSC103BDNPROT/PDIF26$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="137" datSetName="CSC103BDNPROT/PDIF26$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单相偷跳启动重合" dataType="0" index="138" datSetName="CSC103BDNPROT/PDIF26$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="139" datSetName="CSC103BDNPROT/PDIF27$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="140" datSetName="CSC103BDNPROT/PDIF27$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="141" datSetName="CSC103BDNPROT/PDIF27$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="142" datSetName="CSC103BDNPROT/PDIF27$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="143" datSetName="CSC103BDNPROT/PDIF27$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="144" datSetName="CSC103BDNPROT/PDIF27$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="145" datSetName="CSC103BDNPROT/PDIF27$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="146" datSetName="CSC103BDNPROT/PDIF27$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="147" datSetName="CSC103BDNPROT/PDIF27$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相偷跳启动重合" dataType="0" index="148" datSetName="CSC103BDNPROT/PDIF27$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳闭锁重合闸" dataType="0" index="149" datSetName="CSC103BDNPROT/PDIF28$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳闭锁重合闸" dataType="0" index="150" datSetName="CSC103BDNPROT/PDIF28$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳闭锁重合闸" dataType="0" index="151" datSetName="CSC103BDNPROT/PDIF28$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳闭锁重合闸" dataType="0" index="152" datSetName="CSC103BDNPROT/PDIF28$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三跳闭锁重合闸" dataType="0" index="153" datSetName="CSC103BDNPROT/PDIF28$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="同期相别改变" dataType="0" index="154" datSetName="CSC103BDNPROT/PDIF33$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="同期相别改变" dataType="0" index="155" datSetName="CSC103BDNPROT/PDIF33$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="同期相别改变" dataType="0" index="156" datSetName="CSC103BDNPROT/PDIF33$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="同期相别改变" dataType="0" index="157" datSetName="CSC103BDNPROT/PDIF33$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="同期相别改变" dataType="0" index="158" datSetName="CSC103BDNPROT/PDIF33$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳闭锁重合闸" dataType="0" index="159" datSetName="CSC103BDNPROT/PDIF35$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳闭锁重合闸" dataType="0" index="160" datSetName="CSC103BDNPROT/PDIF35$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳闭锁重合闸" dataType="0" index="161" datSetName="CSC103BDNPROT/PDIF35$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳闭锁重合闸" dataType="0" index="162" datSetName="CSC103BDNPROT/PDIF35$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="单跳闭锁重合闸" dataType="0" index="163" datSetName="CSC103BDNPROT/PDIF35$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护动作" dataType="0" index="164" datSetName="CSC103BDNPROT/PDIF41$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护动作" dataType="0" index="165" datSetName="CSC103BDNPROT/PDIF41$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护动作" dataType="0" index="166" datSetName="CSC103BDNPROT/PDIF41$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护动作" dataType="0" index="167" datSetName="CSC103BDNPROT/PDIF41$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护动作" dataType="0" index="168" datSetName="CSC103BDNPROT/PDIF41$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发展动作" dataType="0" index="169" datSetName="CSC103BDNPROT/PDIF42$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发展动作" dataType="0" index="170" datSetName="CSC103BDNPROT/PDIF42$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发展动作" dataType="0" index="171" datSetName="CSC103BDNPROT/PDIF42$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发展动作" dataType="0" index="172" datSetName="CSC103BDNPROT/PDIF42$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发展动作" dataType="0" index="173" datSetName="CSC103BDNPROT/PDIF42$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联手合动作" dataType="0" index="174" datSetName="CSC103BDNPROT/PDIF44$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联手合动作" dataType="0" index="175" datSetName="CSC103BDNPROT/PDIF44$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联手合动作" dataType="0" index="176" datSetName="CSC103BDNPROT/PDIF44$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联手合动作" dataType="0" index="177" datSetName="CSC103BDNPROT/PDIF44$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联手合动作" dataType="0" index="178" datSetName="CSC103BDNPROT/PDIF44$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护收信" dataType="0" index="179" datSetName="CSC103BDNPROT/PDIF45$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护收信" dataType="0" index="180" datSetName="CSC103BDNPROT/PDIF45$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护收信" dataType="0" index="181" datSetName="CSC103BDNPROT/PDIF45$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护收信" dataType="0" index="182" datSetName="CSC103BDNPROT/PDIF45$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护收信" dataType="0" index="183" datSetName="CSC103BDNPROT/PDIF45$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相差动动作" dataType="0" index="184" datSetName="CSC103BDNPROT/PDIF46$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相差动动作" dataType="0" index="185" datSetName="CSC103BDNPROT/PDIF46$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相差动动作" dataType="0" index="186" datSetName="CSC103BDNPROT/PDIF46$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相差动动作" dataType="0" index="187" datSetName="CSC103BDNPROT/PDIF46$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="分相差动动作" dataType="0" index="188" datSetName="CSC103BDNPROT/PDIF46$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序差动动作" dataType="0" index="189" datSetName="CSC103BDNPROT/PDIF47$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序差动动作" dataType="0" index="190" datSetName="CSC103BDNPROT/PDIF47$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序差动动作" dataType="0" index="191" datSetName="CSC103BDNPROT/PDIF47$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序差动动作" dataType="0" index="192" datSetName="CSC103BDNPROT/PDIF47$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序差动动作" dataType="0" index="193" datSetName="CSC103BDNPROT/PDIF47$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动发展动作" dataType="0" index="194" datSetName="CSC103BDNPROT/PDIF50$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动发展动作" dataType="0" index="195" datSetName="CSC103BDNPROT/PDIF50$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动发展动作" dataType="0" index="196" datSetName="CSC103BDNPROT/PDIF50$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动发展动作" dataType="0" index="197" datSetName="CSC103BDNPROT/PDIF50$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动发展动作" dataType="0" index="198" datSetName="CSC103BDNPROT/PDIF50$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护动作" dataType="0" index="199" datSetName="CSC103BDNPROT/PDIF51$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护动作" dataType="0" index="200" datSetName="CSC103BDNPROT/PDIF51$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护动作" dataType="0" index="201" datSetName="CSC103BDNPROT/PDIF51$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护动作" dataType="0" index="202" datSetName="CSC103BDNPROT/PDIF51$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联差动保护动作" dataType="0" index="203" datSetName="CSC103BDNPROT/PDIF51$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动手合动作" dataType="0" index="204" datSetName="CSC103BDNPROT/PDIF52$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动手合动作" dataType="0" index="205" datSetName="CSC103BDNPROT/PDIF52$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动手合动作" dataType="0" index="206" datSetName="CSC103BDNPROT/PDIF52$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动手合动作" dataType="0" index="207" datSetName="CSC103BDNPROT/PDIF52$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动手合动作" dataType="0" index="208" datSetName="CSC103BDNPROT/PDIF52$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸动作" dataType="0" index="209" datSetName="CSC103BDNPROT/PDIF54$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸动作" dataType="0" index="210" datSetName="CSC103BDNPROT/PDIF54$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸动作" dataType="0" index="211" datSetName="CSC103BDNPROT/PDIF54$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸动作" dataType="0" index="212" datSetName="CSC103BDNPROT/PDIF54$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸动作" dataType="0" index="213" datSetName="CSC103BDNPROT/PDIF54$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开出" dataType="0" index="214" datSetName="CSC103BDNPROT/PDIF55$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开出" dataType="0" index="215" datSetName="CSC103BDNPROT/PDIF55$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开出" dataType="0" index="216" datSetName="CSC103BDNPROT/PDIF55$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开出" dataType="0" index="217" datSetName="CSC103BDNPROT/PDIF55$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开出" dataType="0" index="218" datSetName="CSC103BDNPROT/PDIF55$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开出" dataType="0" index="219" datSetName="CSC103BDNPROT/PDIF56$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开出" dataType="0" index="220" datSetName="CSC103BDNPROT/PDIF56$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开出" dataType="0" index="221" datSetName="CSC103BDNPROT/PDIF56$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开出" dataType="0" index="222" datSetName="CSC103BDNPROT/PDIF56$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开出" dataType="0" index="223" datSetName="CSC103BDNPROT/PDIF56$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1返回" dataType="0" index="224" datSetName="CSC103BDNPROT/PDIF58$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1返回" dataType="0" index="225" datSetName="CSC103BDNPROT/PDIF58$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1返回" dataType="0" index="226" datSetName="CSC103BDNPROT/PDIF58$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1返回" dataType="0" index="227" datSetName="CSC103BDNPROT/PDIF58$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1返回" dataType="0" index="228" datSetName="CSC103BDNPROT/PDIF58$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2返回" dataType="0" index="229" datSetName="CSC103BDNPROT/PDIF59$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2返回" dataType="0" index="230" datSetName="CSC103BDNPROT/PDIF59$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2返回" dataType="0" index="231" datSetName="CSC103BDNPROT/PDIF59$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2返回" dataType="0" index="232" datSetName="CSC103BDNPROT/PDIF59$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2返回" dataType="0" index="233" datSetName="CSC103BDNPROT/PDIF59$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="234" datSetName="CSC103BDNPROT/PDIF61$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="235" datSetName="CSC103BDNPROT/PDIF61$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="236" datSetName="CSC103BDNPROT/PDIF61$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="237" datSetName="CSC103BDNPROT/PDIF61$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="238" datSetName="CSC103BDNPROT/PDIF61$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="239" datSetName="CSC103BDNPROT/PDIF61$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="240" datSetName="CSC103BDNPROT/PDIF61$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="241" datSetName="CSC103BDNPROT/PDIF61$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="242" datSetName="CSC103BDNPROT/PDIF61$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动弱馈启动" dataType="0" index="243" datSetName="CSC103BDNPROT/PDIF61$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="244" datSetName="CSC103BDNPROT/PDIF62$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="245" datSetName="CSC103BDNPROT/PDIF62$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="246" datSetName="CSC103BDNPROT/PDIF62$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="247" datSetName="CSC103BDNPROT/PDIF62$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="248" datSetName="CSC103BDNPROT/PDIF62$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="249" datSetName="CSC103BDNPROT/PDIF62$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="250" datSetName="CSC103BDNPROT/PDIF62$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="251" datSetName="CSC103BDNPROT/PDIF62$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="252" datSetName="CSC103BDNPROT/PDIF62$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="差动远方召唤启动" dataType="0" index="253" datSetName="CSC103BDNPROT/PDIF62$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样失步" dataType="0" index="254" datSetName="CSC103BDNPROT/PDIF63$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样失步" dataType="0" index="255" datSetName="CSC103BDNPROT/PDIF63$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样失步" dataType="0" index="256" datSetName="CSC103BDNPROT/PDIF63$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样失步" dataType="0" index="257" datSetName="CSC103BDNPROT/PDIF63$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样失步" dataType="0" index="258" datSetName="CSC103BDNPROT/PDIF63$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样已同步" dataType="0" index="259" datSetName="CSC103BDNPROT/PDIF64$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样已同步" dataType="0" index="260" datSetName="CSC103BDNPROT/PDIF64$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样已同步" dataType="0" index="261" datSetName="CSC103BDNPROT/PDIF64$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样已同步" dataType="0" index="262" datSetName="CSC103BDNPROT/PDIF64$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="采样已同步" dataType="0" index="263" datSetName="CSC103BDNPROT/PDIF64$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一通, 丢帧:" dataType="0" index="264" datSetName="CSC103BDNPROT/PDIF65$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一通, 丢帧:" dataType="0" index="265" datSetName="CSC103BDNPROT/PDIF65$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一通, 丢帧:" dataType="0" index="266" datSetName="CSC103BDNPROT/PDIF65$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一通, 丢帧:" dataType="0" index="267" datSetName="CSC103BDNPROT/PDIF65$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一通, 丢帧:" dataType="0" index="268" datSetName="CSC103BDNPROT/PDIF65$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二通, 丢帧:" dataType="0" index="269" datSetName="CSC103BDNPROT/PDIF66$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二通, 丢帧:" dataType="0" index="270" datSetName="CSC103BDNPROT/PDIF66$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二通, 丢帧:" dataType="0" index="271" datSetName="CSC103BDNPROT/PDIF66$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二通, 丢帧:" dataType="0" index="272" datSetName="CSC103BDNPROT/PDIF66$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二通, 丢帧:" dataType="0" index="273" datSetName="CSC103BDNPROT/PDIF66$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一断, 丢帧:" dataType="0" index="274" datSetName="CSC103BDNPROT/PDIF67$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一断, 丢帧:" dataType="0" index="275" datSetName="CSC103BDNPROT/PDIF67$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一断, 丢帧:" dataType="0" index="276" datSetName="CSC103BDNPROT/PDIF67$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一断, 丢帧:" dataType="0" index="277" datSetName="CSC103BDNPROT/PDIF67$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道一断, 丢帧:" dataType="0" index="278" datSetName="CSC103BDNPROT/PDIF67$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二断, 丢帧:" dataType="0" index="279" datSetName="CSC103BDNPROT/PDIF68$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二断, 丢帧:" dataType="0" index="280" datSetName="CSC103BDNPROT/PDIF68$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二断, 丢帧:" dataType="0" index="281" datSetName="CSC103BDNPROT/PDIF68$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二断, 丢帧:" dataType="0" index="282" datSetName="CSC103BDNPROT/PDIF68$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="通道二断, 丢帧:" dataType="0" index="283" datSetName="CSC103BDNPROT/PDIF68$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸" dataType="0" index="284" datSetName="CSC103BDNPROT/PDIF69$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸" dataType="0" index="285" datSetName="CSC103BDNPROT/PDIF69$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸" dataType="0" index="286" datSetName="CSC103BDNPROT/PDIF69$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸" dataType="0" index="287" datSetName="CSC103BDNPROT/PDIF69$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸" dataType="0" index="288" datSetName="CSC103BDNPROT/PDIF69$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗停信" dataType="0" index="289" datSetName="CSC103BDNPROT/PDIF70$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗停信" dataType="0" index="290" datSetName="CSC103BDNPROT/PDIF70$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗停信" dataType="0" index="291" datSetName="CSC103BDNPROT/PDIF70$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗停信" dataType="0" index="292" datSetName="CSC103BDNPROT/PDIF70$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗停信" dataType="0" index="293" datSetName="CSC103BDNPROT/PDIF70$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序停信" dataType="0" index="294" datSetName="CSC103BDNPROT/PDIF71$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序停信" dataType="0" index="295" datSetName="CSC103BDNPROT/PDIF71$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序停信" dataType="0" index="296" datSetName="CSC103BDNPROT/PDIF71$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序停信" dataType="0" index="297" datSetName="CSC103BDNPROT/PDIF71$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序停信" dataType="0" index="298" datSetName="CSC103BDNPROT/PDIF71$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量停信" dataType="0" index="299" datSetName="CSC103BDNPROT/PDIF72$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量停信" dataType="0" index="300" datSetName="CSC103BDNPROT/PDIF72$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量停信" dataType="0" index="301" datSetName="CSC103BDNPROT/PDIF72$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量停信" dataType="0" index="302" datSetName="CSC103BDNPROT/PDIF72$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量停信" dataType="0" index="303" datSetName="CSC103BDNPROT/PDIF72$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸停信" dataType="0" index="304" datSetName="CSC103BDNPROT/PDIF73$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸停信" dataType="0" index="305" datSetName="CSC103BDNPROT/PDIF73$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸停信" dataType="0" index="306" datSetName="CSC103BDNPROT/PDIF73$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸停信" dataType="0" index="307" datSetName="CSC103BDNPROT/PDIF73$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸停信" dataType="0" index="308" datSetName="CSC103BDNPROT/PDIF73$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置停信" dataType="0" index="309" datSetName="CSC103BDNPROT/PDIF74$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置停信" dataType="0" index="310" datSetName="CSC103BDNPROT/PDIF74$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置停信" dataType="0" index="311" datSetName="CSC103BDNPROT/PDIF74$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置停信" dataType="0" index="312" datSetName="CSC103BDNPROT/PDIF74$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置停信" dataType="0" index="313" datSetName="CSC103BDNPROT/PDIF74$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈停信" dataType="0" index="314" datSetName="CSC103BDNPROT/PDIF75$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈停信" dataType="0" index="315" datSetName="CSC103BDNPROT/PDIF75$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈停信" dataType="0" index="316" datSetName="CSC103BDNPROT/PDIF75$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈停信" dataType="0" index="317" datSetName="CSC103BDNPROT/PDIF75$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈停信" dataType="0" index="318" datSetName="CSC103BDNPROT/PDIF75$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道一" dataType="0" index="319" datSetName="CSC103BDNPROT/PDIF76$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道一" dataType="0" index="320" datSetName="CSC103BDNPROT/PDIF76$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道一" dataType="0" index="321" datSetName="CSC103BDNPROT/PDIF76$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道一" dataType="0" index="322" datSetName="CSC103BDNPROT/PDIF76$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道一" dataType="0" index="323" datSetName="CSC103BDNPROT/PDIF76$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道二" dataType="0" index="324" datSetName="CSC103BDNPROT/PDIF77$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道二" dataType="0" index="325" datSetName="CSC103BDNPROT/PDIF77$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道二" dataType="0" index="326" datSetName="CSC103BDNPROT/PDIF77$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道二" dataType="0" index="327" datSetName="CSC103BDNPROT/PDIF77$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="数据来源通道二" dataType="0" index="328" datSetName="CSC103BDNPROT/PDIF77$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相差动电流" dataType="0" index="329" datSetName="CSC103BDNPROT/PDIF80$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相差动电流" dataType="0" index="330" datSetName="CSC103BDNPROT/PDIF80$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相差动电流" dataType="0" index="331" datSetName="CSC103BDNPROT/PDIF80$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相差动电流" dataType="0" index="332" datSetName="CSC103BDNPROT/PDIF80$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相差动电流" dataType="0" index="333" datSetName="CSC103BDNPROT/PDIF80$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相制动电流" dataType="0" index="334" datSetName="CSC103BDNPROT/PDIF81$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相制动电流" dataType="0" index="335" datSetName="CSC103BDNPROT/PDIF81$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相制动电流" dataType="0" index="336" datSetName="CSC103BDNPROT/PDIF81$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相制动电流" dataType="0" index="337" datSetName="CSC103BDNPROT/PDIF81$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相制动电流" dataType="0" index="338" datSetName="CSC103BDNPROT/PDIF81$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗发信" dataType="0" index="339" datSetName="CSC103BDNPROT/PDIF82$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗发信" dataType="0" index="340" datSetName="CSC103BDNPROT/PDIF82$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗发信" dataType="0" index="341" datSetName="CSC103BDNPROT/PDIF82$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗发信" dataType="0" index="342" datSetName="CSC103BDNPROT/PDIF82$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联阻抗发信" dataType="0" index="343" datSetName="CSC103BDNPROT/PDIF82$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序发信" dataType="0" index="344" datSetName="CSC103BDNPROT/PDIF83$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序发信" dataType="0" index="345" datSetName="CSC103BDNPROT/PDIF83$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序发信" dataType="0" index="346" datSetName="CSC103BDNPROT/PDIF83$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序发信" dataType="0" index="347" datSetName="CSC103BDNPROT/PDIF83$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序发信" dataType="0" index="348" datSetName="CSC103BDNPROT/PDIF83$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量发信" dataType="0" index="349" datSetName="CSC103BDNPROT/PDIF84$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量发信" dataType="0" index="350" datSetName="CSC103BDNPROT/PDIF84$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量发信" dataType="0" index="351" datSetName="CSC103BDNPROT/PDIF84$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量发信" dataType="0" index="352" datSetName="CSC103BDNPROT/PDIF84$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联突变量发信" dataType="0" index="353" datSetName="CSC103BDNPROT/PDIF84$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸发信" dataType="0" index="354" datSetName="CSC103BDNPROT/PDIF85$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸发信" dataType="0" index="355" datSetName="CSC103BDNPROT/PDIF85$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸发信" dataType="0" index="356" datSetName="CSC103BDNPROT/PDIF85$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸发信" dataType="0" index="357" datSetName="CSC103BDNPROT/PDIF85$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="保护跳闸发信" dataType="0" index="358" datSetName="CSC103BDNPROT/PDIF85$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置发信" dataType="0" index="359" datSetName="CSC103BDNPROT/PDIF86$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置发信" dataType="0" index="360" datSetName="CSC103BDNPROT/PDIF86$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置发信" dataType="0" index="361" datSetName="CSC103BDNPROT/PDIF86$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置发信" dataType="0" index="362" datSetName="CSC103BDNPROT/PDIF86$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跳闸位置发信" dataType="0" index="363" datSetName="CSC103BDNPROT/PDIF86$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈发信" dataType="0" index="364" datSetName="CSC103BDNPROT/PDIF87$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈发信" dataType="0" index="365" datSetName="CSC103BDNPROT/PDIF87$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈发信" dataType="0" index="366" datSetName="CSC103BDNPROT/PDIF87$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈发信" dataType="0" index="367" datSetName="CSC103BDNPROT/PDIF87$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联弱馈发信" dataType="0" index="368" datSetName="CSC103BDNPROT/PDIF87$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序加速段动作" dataType="0" index="369" datSetName="CSC103BDNPROT/PDIF89$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序加速段动作" dataType="0" index="370" datSetName="CSC103BDNPROT/PDIF89$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序加速段动作" dataType="0" index="371" datSetName="CSC103BDNPROT/PDIF89$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序加速段动作" dataType="0" index="372" datSetName="CSC103BDNPROT/PDIF89$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="零序加速段动作" dataType="0" index="373" datSetName="CSC103BDNPROT/PDIF89$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="联跳三跳" dataType="0" index="374" datSetName="CSC103BDNPROT/PDIF90$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="联跳三跳" dataType="0" index="375" datSetName="CSC103BDNPROT/PDIF90$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="联跳三跳" dataType="0" index="376" datSetName="CSC103BDNPROT/PDIF90$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="联跳三跳" dataType="0" index="377" datSetName="CSC103BDNPROT/PDIF90$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="联跳三跳" dataType="0" index="378" datSetName="CSC103BDNPROT/PDIF90$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸开入" dataType="0" index="379" datSetName="CSC103BDNPROT/PDIF91$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸开入" dataType="0" index="380" datSetName="CSC103BDNPROT/PDIF91$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸开入" dataType="0" index="381" datSetName="CSC103BDNPROT/PDIF91$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸开入" dataType="0" index="382" datSetName="CSC103BDNPROT/PDIF91$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远方跳闸开入" dataType="0" index="383" datSetName="CSC103BDNPROT/PDIF91$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开入" dataType="0" index="384" datSetName="CSC103BDNPROT/PDIF92$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开入" dataType="0" index="385" datSetName="CSC103BDNPROT/PDIF92$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开入" dataType="0" index="386" datSetName="CSC103BDNPROT/PDIF92$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开入" dataType="0" index="387" datSetName="CSC103BDNPROT/PDIF92$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令1开入" dataType="0" index="388" datSetName="CSC103BDNPROT/PDIF92$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开入" dataType="0" index="389" datSetName="CSC103BDNPROT/PDIF93$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开入" dataType="0" index="390" datSetName="CSC103BDNPROT/PDIF93$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开入" dataType="0" index="391" datSetName="CSC103BDNPROT/PDIF93$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开入" dataType="0" index="392" datSetName="CSC103BDNPROT/PDIF93$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="远传命令2开入" dataType="0" index="393" datSetName="CSC103BDNPROT/PDIF93$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧差动动作" dataType="0" index="394" datSetName="CSC103BDNPROT/PDIF94$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧差动动作" dataType="0" index="395" datSetName="CSC103BDNPROT/PDIF94$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧差动动作" dataType="0" index="396" datSetName="CSC103BDNPROT/PDIF94$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧差动动作" dataType="0" index="397" datSetName="CSC103BDNPROT/PDIF94$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="对侧差动动作" dataType="0" index="398" datSetName="CSC103BDNPROT/PDIF94$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压闭锁重合闸" dataType="0" index="399" datSetName="CSC103BDNPROT/PDIF95$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压闭锁重合闸" dataType="0" index="400" datSetName="CSC103BDNPROT/PDIF95$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压闭锁重合闸" dataType="0" index="401" datSetName="CSC103BDNPROT/PDIF95$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压闭锁重合闸" dataType="0" index="402" datSetName="CSC103BDNPROT/PDIF95$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="低气压闭锁重合闸" dataType="0" index="403" datSetName="CSC103BDNPROT/PDIF95$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸开入" dataType="0" index="404" datSetName="CSC103BDNPROT/PDIF96$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸开入" dataType="0" index="405" datSetName="CSC103BDNPROT/PDIF96$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸开入" dataType="0" index="406" datSetName="CSC103BDNPROT/PDIF96$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸开入" dataType="0" index="407" datSetName="CSC103BDNPROT/PDIF96$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="闭锁重合闸开入" dataType="0" index="408" datSetName="CSC103BDNPROT/PDIF96$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="409" datSetName="CSC103BDNPROT/PDIF97$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="410" datSetName="CSC103BDNPROT/PDIF97$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="411" datSetName="CSC103BDNPROT/PDIF97$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="412" datSetName="CSC103BDNPROT/PDIF97$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="413" datSetName="CSC103BDNPROT/PDIF97$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="414" datSetName="CSC103BDNPROT/PDIF97$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="415" datSetName="CSC103BDNPROT/PDIF97$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="416" datSetName="CSC103BDNPROT/PDIF97$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="417" datSetName="CSC103BDNPROT/PDIF97$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致启动" dataType="0" index="418" datSetName="CSC103BDNPROT/PDIF97$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致动作" dataType="0" index="419" datSetName="CSC103BDNPROT/PDIF98$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致动作" dataType="0" index="420" datSetName="CSC103BDNPROT/PDIF98$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致动作" dataType="0" index="421" datSetName="CSC103BDNPROT/PDIF98$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致动作" dataType="0" index="422" datSetName="CSC103BDNPROT/PDIF98$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="三相不一致动作" dataType="0" index="423" datSetName="CSC103BDNPROT/PDIF98$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳三相" dataType="0" index="424" datSetName="CSC103BDNPROT/PDIF99$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳三相" dataType="0" index="425" datSetName="CSC103BDNPROT/PDIF99$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳三相" dataType="0" index="426" datSetName="CSC103BDNPROT/PDIF99$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳三相" dataType="0" index="427" datSetName="CSC103BDNPROT/PDIF99$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳三相" dataType="0" index="428" datSetName="CSC103BDNPROT/PDIF99$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳A相" dataType="0" index="429" datSetName="CSC103BDNPROT/PDIF100$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳A相" dataType="0" index="430" datSetName="CSC103BDNPROT/PDIF100$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳A相" dataType="0" index="431" datSetName="CSC103BDNPROT/PDIF100$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳A相" dataType="0" index="432" datSetName="CSC103BDNPROT/PDIF100$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳A相" dataType="0" index="433" datSetName="CSC103BDNPROT/PDIF100$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳B相" dataType="0" index="434" datSetName="CSC103BDNPROT/PDIF101$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳B相" dataType="0" index="435" datSetName="CSC103BDNPROT/PDIF101$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳B相" dataType="0" index="436" datSetName="CSC103BDNPROT/PDIF101$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳B相" dataType="0" index="437" datSetName="CSC103BDNPROT/PDIF101$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳B相" dataType="0" index="438" datSetName="CSC103BDNPROT/PDIF101$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳C相" dataType="0" index="439" datSetName="CSC103BDNPROT/PDIF102$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳C相" dataType="0" index="440" datSetName="CSC103BDNPROT/PDIF102$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳C相" dataType="0" index="441" datSetName="CSC103BDNPROT/PDIF102$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳C相" dataType="0" index="442" datSetName="CSC103BDNPROT/PDIF102$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障跳C相" dataType="0" index="443" datSetName="CSC103BDNPROT/PDIF102$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸未重合" dataType="0" index="444" datSetName="CSC103BDNPROT/PDIF103$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸未重合" dataType="0" index="445" datSetName="CSC103BDNPROT/PDIF103$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸未重合" dataType="0" index="446" datSetName="CSC103BDNPROT/PDIF103$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸未重合" dataType="0" index="447" datSetName="CSC103BDNPROT/PDIF103$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合闸未重合" dataType="0" index="448" datSetName="CSC103BDNPROT/PDIF103$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合不成功" dataType="0" index="449" datSetName="CSC103BDNPROT/PDIF104$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合不成功" dataType="0" index="450" datSetName="CSC103BDNPROT/PDIF104$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合不成功" dataType="0" index="451" datSetName="CSC103BDNPROT/PDIF104$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合不成功" dataType="0" index="452" datSetName="CSC103BDNPROT/PDIF104$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合不成功" dataType="0" index="453" datSetName="CSC103BDNPROT/PDIF104$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合成功" dataType="0" index="454" datSetName="CSC103BDNPROT/PDIF105$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合成功" dataType="0" index="455" datSetName="CSC103BDNPROT/PDIF105$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合成功" dataType="0" index="456" datSetName="CSC103BDNPROT/PDIF105$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合成功" dataType="0" index="457" datSetName="CSC103BDNPROT/PDIF105$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="重合成功" dataType="0" index="458" datSetName="CSC103BDNPROT/PDIF105$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线零序动作" dataType="0" index="459" datSetName="CSC103BDNPROT/PDIF106$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线零序动作" dataType="0" index="460" datSetName="CSC103BDNPROT/PDIF106$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线零序动作" dataType="0" index="461" datSetName="CSC103BDNPROT/PDIF106$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线零序动作" dataType="0" index="462" datSetName="CSC103BDNPROT/PDIF106$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线零序动作" dataType="0" index="463" datSetName="CSC103BDNPROT/PDIF106$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线相过流动作" dataType="0" index="464" datSetName="CSC103BDNPROT/PDIF107$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线相过流动作" dataType="0" index="465" datSetName="CSC103BDNPROT/PDIF107$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线相过流动作" dataType="0" index="466" datSetName="CSC103BDNPROT/PDIF107$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线相过流动作" dataType="0" index="467" datSetName="CSC103BDNPROT/PDIF107$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="PT断线相过流动作" dataType="0" index="468" datSetName="CSC103BDNPROT/PDIF107$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发信" dataType="0" index="469" datSetName="CSC103BDNPROT/PDIF108$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发信" dataType="0" index="470" datSetName="CSC103BDNPROT/PDIF108$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发信" dataType="0" index="471" datSetName="CSC103BDNPROT/PDIF108$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发信" dataType="0" index="472" datSetName="CSC103BDNPROT/PDIF108$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护发信" dataType="0" index="473" datSetName="CSC103BDNPROT/PDIF108$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护三跳" dataType="0" index="474" datSetName="CSC103BDNPROT/PDIF109$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护三跳" dataType="0" index="475" datSetName="CSC103BDNPROT/PDIF109$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护三跳" dataType="0" index="476" datSetName="CSC103BDNPROT/PDIF109$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护三跳" dataType="0" index="477" datSetName="CSC103BDNPROT/PDIF109$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联保护三跳" dataType="0" index="478" datSetName="CSC103BDNPROT/PDIF109$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="选相无效三跳" dataType="0" index="479" datSetName="CSC103BDNPROT/PDIF112$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="选相无效三跳" dataType="0" index="480" datSetName="CSC103BDNPROT/PDIF112$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="选相无效三跳" dataType="0" index="481" datSetName="CSC103BDNPROT/PDIF112$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="选相无效三跳" dataType="0" index="482" datSetName="CSC103BDNPROT/PDIF112$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="选相无效三跳" dataType="0" index="483" datSetName="CSC103BDNPROT/PDIF112$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电压" dataType="0" index="484" datSetName="CSC103BDNPROT/PDIF113$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电压" dataType="0" index="485" datSetName="CSC103BDNPROT/PDIF113$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电压" dataType="0" index="486" datSetName="CSC103BDNPROT/PDIF113$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电压" dataType="0" index="487" datSetName="CSC103BDNPROT/PDIF113$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电压" dataType="0" index="488" datSetName="CSC103BDNPROT/PDIF113$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电流" dataType="0" index="489" datSetName="CSC103BDNPROT/PDIF114$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电流" dataType="0" index="490" datSetName="CSC103BDNPROT/PDIF114$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电流" dataType="0" index="491" datSetName="CSC103BDNPROT/PDIF114$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电流" dataType="0" index="492" datSetName="CSC103BDNPROT/PDIF114$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障相电流" dataType="0" index="493" datSetName="CSC103BDNPROT/PDIF114$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护发信" dataType="0" index="494" datSetName="CSC103BDNPROT/PDIF115$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护发信" dataType="0" index="495" datSetName="CSC103BDNPROT/PDIF115$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护发信" dataType="0" index="496" datSetName="CSC103BDNPROT/PDIF115$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护发信" dataType="0" index="497" datSetName="CSC103BDNPROT/PDIF115$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护发信" dataType="0" index="498" datSetName="CSC103BDNPROT/PDIF115$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护停信" dataType="0" index="499" datSetName="CSC103BDNPROT/PDIF116$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护停信" dataType="0" index="500" datSetName="CSC103BDNPROT/PDIF116$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护停信" dataType="0" index="501" datSetName="CSC103BDNPROT/PDIF116$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护停信" dataType="0" index="502" datSetName="CSC103BDNPROT/PDIF116$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="其他保护停信" dataType="0" index="503" datSetName="CSC103BDNPROT/PDIF116$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跟从对侧跳闸" dataType="0" index="504" datSetName="CSC103BDNPROT/PDIF117$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跟从对侧跳闸" dataType="0" index="505" datSetName="CSC103BDNPROT/PDIF117$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跟从对侧跳闸" dataType="0" index="506" datSetName="CSC103BDNPROT/PDIF117$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跟从对侧跳闸" dataType="0" index="507" datSetName="CSC103BDNPROT/PDIF117$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="跟从对侧跳闸" dataType="0" index="508" datSetName="CSC103BDNPROT/PDIF117$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序环回发信" dataType="0" index="509" datSetName="CSC103BDNPROT/PDIF118$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序环回发信" dataType="0" index="510" datSetName="CSC103BDNPROT/PDIF118$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序环回发信" dataType="0" index="511" datSetName="CSC103BDNPROT/PDIF118$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序环回发信" dataType="0" index="512" datSetName="CSC103BDNPROT/PDIF118$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="纵联零序环回发信" dataType="0" index="513" datSetName="CSC103BDNPROT/PDIF118$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="514" datSetName="CSC103BDNPROT/PDIF143$ST$Str$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="515" datSetName="CSC103BDNPROT/PDIF143$ST$Str$dirGeneral"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="516" datSetName="CSC103BDNPROT/PDIF143$ST$Str$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="517" datSetName="CSC103BDNPROT/PDIF143$ST$Str$dirPhsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="518" datSetName="CSC103BDNPROT/PDIF143$ST$Str$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="519" datSetName="CSC103BDNPROT/PDIF143$ST$Str$dirPhsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="520" datSetName="CSC103BDNPROT/PDIF143$ST$Str$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="521" datSetName="CSC103BDNPROT/PDIF143$ST$Str$dirPhsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="522" datSetName="CSC103BDNPROT/PDIF143$ST$Str$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流辅助启动" dataType="0" index="523" datSetName="CSC103BDNPROT/PDIF143$ST$Str$dirNeut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅰ段动作" dataType="0" index="524" datSetName="CSC103BDNPROT/PDIF144$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅰ段动作" dataType="0" index="525" datSetName="CSC103BDNPROT/PDIF144$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅰ段动作" dataType="0" index="526" datSetName="CSC103BDNPROT/PDIF144$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅰ段动作" dataType="0" index="527" datSetName="CSC103BDNPROT/PDIF144$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅰ段动作" dataType="0" index="528" datSetName="CSC103BDNPROT/PDIF144$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅱ段动作" dataType="0" index="529" datSetName="CSC103BDNPROT/PDIF145$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅱ段动作" dataType="0" index="530" datSetName="CSC103BDNPROT/PDIF145$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅱ段动作" dataType="0" index="531" datSetName="CSC103BDNPROT/PDIF145$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅱ段动作" dataType="0" index="532" datSetName="CSC103BDNPROT/PDIF145$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="过流Ⅱ段动作" dataType="0" index="533" datSetName="CSC103BDNPROT/PDIF145$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段加速动作" dataType="0" index="534" datSetName="CSC103BDNPROT/PDIS1$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段加速动作" dataType="0" index="535" datSetName="CSC103BDNPROT/PDIS1$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段加速动作" dataType="0" index="536" datSetName="CSC103BDNPROT/PDIS1$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段加速动作" dataType="0" index="537" datSetName="CSC103BDNPROT/PDIS1$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段加速动作" dataType="0" index="538" datSetName="CSC103BDNPROT/PDIS1$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅲ段加速动作" dataType="0" index="539" datSetName="CSC103BDNPROT/PDIS2$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅲ段加速动作" dataType="0" index="540" datSetName="CSC103BDNPROT/PDIS2$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅲ段加速动作" dataType="0" index="541" datSetName="CSC103BDNPROT/PDIS2$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅲ段加速动作" dataType="0" index="542" datSetName="CSC103BDNPROT/PDIS2$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅲ段加速动作" dataType="0" index="543" datSetName="CSC103BDNPROT/PDIS2$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离手合加速动作" dataType="0" index="544" datSetName="CSC103BDNPROT/PDIS3$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离手合加速动作" dataType="0" index="545" datSetName="CSC103BDNPROT/PDIS3$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离手合加速动作" dataType="0" index="546" datSetName="CSC103BDNPROT/PDIS3$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离手合加速动作" dataType="0" index="547" datSetName="CSC103BDNPROT/PDIS3$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离手合加速动作" dataType="0" index="548" datSetName="CSC103BDNPROT/PDIS3$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离相近加速动作" dataType="0" index="549" datSetName="CSC103BDNPROT/PDIS4$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离相近加速动作" dataType="0" index="550" datSetName="CSC103BDNPROT/PDIS4$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离相近加速动作" dataType="0" index="551" datSetName="CSC103BDNPROT/PDIS4$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离相近加速动作" dataType="0" index="552" datSetName="CSC103BDNPROT/PDIS4$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离相近加速动作" dataType="0" index="553" datSetName="CSC103BDNPROT/PDIS4$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅰ段发展动作" dataType="0" index="554" datSetName="CSC103BDNPROT/PDIS5$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅰ段发展动作" dataType="0" index="555" datSetName="CSC103BDNPROT/PDIS5$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅰ段发展动作" dataType="0" index="556" datSetName="CSC103BDNPROT/PDIS5$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅰ段发展动作" dataType="0" index="557" datSetName="CSC103BDNPROT/PDIS5$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅰ段发展动作" dataType="0" index="558" datSetName="CSC103BDNPROT/PDIS5$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段发展动作" dataType="0" index="559" datSetName="CSC103BDNPROT/PDIS6$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段发展动作" dataType="0" index="560" datSetName="CSC103BDNPROT/PDIS6$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段发展动作" dataType="0" index="561" datSetName="CSC103BDNPROT/PDIS6$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段发展动作" dataType="0" index="562" datSetName="CSC103BDNPROT/PDIS6$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离Ⅱ段发展动作" dataType="0" index="563" datSetName="CSC103BDNPROT/PDIS6$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离加速动作" dataType="0" index="564" datSetName="CSC103BDNPROT/PDIS7$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离加速动作" dataType="0" index="565" datSetName="CSC103BDNPROT/PDIS7$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离加速动作" dataType="0" index="566" datSetName="CSC103BDNPROT/PDIS7$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离加速动作" dataType="0" index="567" datSetName="CSC103BDNPROT/PDIS7$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="距离加速动作" dataType="0" index="568" datSetName="CSC103BDNPROT/PDIS7$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅰ段动作" dataType="0" index="569" datSetName="CSC103BDNPROT/PDIS8$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅰ段动作" dataType="0" index="570" datSetName="CSC103BDNPROT/PDIS8$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅰ段动作" dataType="0" index="571" datSetName="CSC103BDNPROT/PDIS8$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅰ段动作" dataType="0" index="572" datSetName="CSC103BDNPROT/PDIS8$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅰ段动作" dataType="0" index="573" datSetName="CSC103BDNPROT/PDIS8$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅱ段动作" dataType="0" index="574" datSetName="CSC103BDNPROT/PDIS9$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅱ段动作" dataType="0" index="575" datSetName="CSC103BDNPROT/PDIS9$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅱ段动作" dataType="0" index="576" datSetName="CSC103BDNPROT/PDIS9$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅱ段动作" dataType="0" index="577" datSetName="CSC103BDNPROT/PDIS9$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅱ段动作" dataType="0" index="578" datSetName="CSC103BDNPROT/PDIS9$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅲ段动作" dataType="0" index="579" datSetName="CSC103BDNPROT/PDIS10$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅲ段动作" dataType="0" index="580" datSetName="CSC103BDNPROT/PDIS10$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅲ段动作" dataType="0" index="581" datSetName="CSC103BDNPROT/PDIS10$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅲ段动作" dataType="0" index="582" datSetName="CSC103BDNPROT/PDIS10$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="接地距离Ⅲ段动作" dataType="0" index="583" datSetName="CSC103BDNPROT/PDIS10$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅰ段动作" dataType="0" index="584" datSetName="CSC103BDNPROT/PDIS11$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅰ段动作" dataType="0" index="585" datSetName="CSC103BDNPROT/PDIS11$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅰ段动作" dataType="0" index="586" datSetName="CSC103BDNPROT/PDIS11$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅰ段动作" dataType="0" index="587" datSetName="CSC103BDNPROT/PDIS11$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅰ段动作" dataType="0" index="588" datSetName="CSC103BDNPROT/PDIS11$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅱ段动作" dataType="0" index="589" datSetName="CSC103BDNPROT/PDIS12$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅱ段动作" dataType="0" index="590" datSetName="CSC103BDNPROT/PDIS12$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅱ段动作" dataType="0" index="591" datSetName="CSC103BDNPROT/PDIS12$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅱ段动作" dataType="0" index="592" datSetName="CSC103BDNPROT/PDIS12$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅱ段动作" dataType="0" index="593" datSetName="CSC103BDNPROT/PDIS12$ST$Op$neut"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅲ段动作" dataType="0" index="594" datSetName="CSC103BDNPROT/PDIS13$ST$Op$general"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅲ段动作" dataType="0" index="595" datSetName="CSC103BDNPROT/PDIS13$ST$Op$phsA"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅲ段动作" dataType="0" index="596" datSetName="CSC103BDNPROT/PDIS13$ST$Op$phsB"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅲ段动作" dataType="0" index="597" datSetName="CSC103BDNPROT/PDIS13$ST$Op$phsC"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="相间距离Ⅲ段动作" dataType="0" index="598" datSetName="CSC103BDNPROT/PDIS13$ST$Op$neut"/>
+                </Goose>
+                <Goose attribId="50" rpt_datSet="" rpt_max="0" datSet="CSC103BDNRCD/LLN0$dsRelayRec" rpt_name="" datCount="4" rpt_rptID="">
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="录波完成" dataType="0" index="1" datSetName="CSC103BDNRCD/RDRE1$ST$RcdMade$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="录波启动" dataType="0" index="2" datSetName="CSC103BDNRCD/RDRE1$ST$RcdStr$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="故障序号" dataType="0" index="3" datSetName="CSC103BDNRCD/RDRE1$ST$FltNum$stVal"/>
+                    <ChnInfo dataTypeStr="" strVal="" dataSize="0" chnName="电网故障序号" dataType="0" index="4" datSetName="CSC103BDNRCD/RDRE1$ST$GriFltNum$stVal"/>
+                </Goose>
+                <Smv attribId="23" datSet="CSC103BDNPROT/LLN0$dsParameter" datCount="13">
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="装置地址" dataType="0" index="1" datSetName="CSC103BDNPROT/LLN0$SP$DevAddr$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="串口1波特率" dataType="0" index="2" datSetName="CSC103BDNPROT/LLN0$SP$Baud4851$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="间隔名称" dataType="0" index="3" datSetName="CSC103BDNPROT/LLN0$SP$DevName$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="103功能类型" dataType="0" index="4" datSetName="CSC103BDNPROT/LLN0$SP$FunTyp103$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="对时方式" dataType="0" index="5" datSetName="CSC103BDNPROT/LLN0$SP$TimeMode$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="规约类型" dataType="0" index="6" datSetName="CSC103BDNPROT/LLN0$SP$ProtocolTyp$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="SOE复归选择" dataType="0" index="7" datSetName="CSC103BDNPROT/LLN0$SP$SOEReset$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="以太1网地址" dataType="0" index="8" datSetName="CSC103BDNPROT/LLN0$SP$Net1Ip$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="以太2网地址" dataType="0" index="9" datSetName="CSC103BDNPROT/LLN0$SP$Net2Ip$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="以太3网地址" dataType="0" index="10" datSetName="CSC103BDNPROT/LLN0$SP$Net3Ip$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="CT二次额定值" dataType="0" index="11" datSetName="CSC103BDNPROT/LLN0$SP$DevParam2$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="PT一次线电压" dataType="0" index="12" datSetName="CSC103BDNPROT/LLN0$SP$DevParam3$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="CT一次额定值" dataType="0" index="13" datSetName="CSC103BDNPROT/LLN0$SP$DevParam1$setMag$f" maxVal="0"/>
+                </Smv>
+                <Smv attribId="20" datSet="CSC103BDNPROT/LLN0$dsSetting" datCount="77">
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="变化量启动电流" dataType="0" index="1" datSetName="CSC103BDNPROT/LLN0$SG$Set168$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序启动电流定值" dataType="0" index="2" datSetName="CSC103BDNPROT/LLN0$SG$Set169$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="差动动作电流定值" dataType="0" index="3" datSetName="CSC103BDNPROT/LLN0$SG$Set174$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="CT断线差流定值" dataType="0" index="4" datSetName="CSC103BDNPROT/LLN0$SG$Set216$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="本侧识别码" dataType="0" index="5" datSetName="CSC103BDNPROT/LLN0$SG$Set172$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="对侧识别码" dataType="0" index="6" datSetName="CSC103BDNPROT/LLN0$SG$Set173$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路正序阻抗定值" dataType="0" index="7" datSetName="CSC103BDNPROT/LLN0$SG$Set177$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路正序灵敏角" dataType="0" index="8" datSetName="CSC103BDNPROT/LLN0$SG$Set178$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路零序阻抗定值" dataType="0" index="9" datSetName="CSC103BDNPROT/LLN0$SG$Set179$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路零序灵敏角" dataType="0" index="10" datSetName="CSC103BDNPROT/LLN0$SG$Set180$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路正序容抗定值" dataType="0" index="11" datSetName="CSC103BDNPROT/LLN0$SG$Xc1L$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路零序容抗定值" dataType="0" index="12" datSetName="CSC103BDNPROT/LLN0$SG$Xc0L$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="线路总长度" dataType="0" index="13" datSetName="CSC103BDNPROT/LLN0$SG$Set181$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="振荡闭锁过流" dataType="0" index="14" datSetName="CSC103BDNPROT/LLN0$SG$Set206$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="接地距离Ⅰ段定值" dataType="0" index="15" datSetName="CSC103BDNPROT/LLN0$SG$Set182$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="接地距离Ⅱ段定值" dataType="0" index="16" datSetName="CSC103BDNPROT/LLN0$SG$Set183$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="接地距离Ⅱ段时间" dataType="0" index="17" datSetName="CSC103BDNPROT/LLN0$SG$Set184$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="接地距离Ⅲ段定值" dataType="0" index="18" datSetName="CSC103BDNPROT/LLN0$SG$Set185$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="接地距离Ⅲ段时间" dataType="0" index="19" datSetName="CSC103BDNPROT/LLN0$SG$Set186$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="相间距离Ⅰ段定值" dataType="0" index="20" datSetName="CSC103BDNPROT/LLN0$SG$Set187$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="相间距离Ⅱ段定值" dataType="0" index="21" datSetName="CSC103BDNPROT/LLN0$SG$Set188$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="相间距离Ⅱ段时间" dataType="0" index="22" datSetName="CSC103BDNPROT/LLN0$SG$Set189$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="相间距离Ⅲ段定值" dataType="0" index="23" datSetName="CSC103BDNPROT/LLN0$SG$Set190$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="相间距离Ⅲ段时间" dataType="0" index="24" datSetName="CSC103BDNPROT/LLN0$SG$Set191$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="负荷限制电阻定值" dataType="0" index="25" datSetName="CSC103BDNPROT/LLN0$SG$Set192$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序过流Ⅱ段定值" dataType="0" index="26" datSetName="CSC103BDNPROT/LLN0$SG$Set195$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序过流Ⅱ段时间" dataType="0" index="27" datSetName="CSC103BDNPROT/LLN0$SG$Set196$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序过流Ⅲ段定值" dataType="0" index="28" datSetName="CSC103BDNPROT/LLN0$SG$Set197$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序过流Ⅲ段时间" dataType="0" index="29" datSetName="CSC103BDNPROT/LLN0$SG$Set198$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序加速段定值" dataType="0" index="30" datSetName="CSC103BDNPROT/LLN0$SG$Set199$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="PT断线相过流定值" dataType="0" index="31" datSetName="CSC103BDNPROT/LLN0$SG$Set200$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="PT断线零序过流" dataType="0" index="32" datSetName="CSC103BDNPROT/LLN0$SG$Set201$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="PT断线过流时间" dataType="0" index="33" datSetName="CSC103BDNPROT/LLN0$SG$Set202$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="过流I段电流定值" dataType="0" index="34" datSetName="CSC103BDNPROT/LLN0$SG$Set220$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="过流I段时间" dataType="0" index="35" datSetName="CSC103BDNPROT/LLN0$SG$Set221$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="过流II段电流定值" dataType="0" index="36" datSetName="CSC103BDNPROT/LLN0$SG$Set222$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="过流II段时间" dataType="0" index="37" datSetName="CSC103BDNPROT/LLN0$SG$Set223$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相不一致零序电流值" dataType="0" index="38" datSetName="CSC103BDNPROT/LLN0$SG$Set242$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相不一致负序电流值" dataType="0" index="39" datSetName="CSC103BDNPROT/LLN0$SG$Set243$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相不一致时间" dataType="0" index="40" datSetName="CSC103BDNPROT/LLN0$SG$Set244$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="单相重合闸时间" dataType="0" index="41" datSetName="CSC103BDNPROT/LLN0$SG$Set203$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相重合闸时间" dataType="0" index="42" datSetName="CSC103BDNPROT/LLN0$SG$Set204$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="同期合闸角" dataType="0" index="43" datSetName="CSC103BDNPROT/LLN0$SG$Set205$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序电抗补偿系数KX" dataType="0" index="44" datSetName="CSC103BDNPROT/LLN0$SG$Set217$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序电阻补偿系数KR" dataType="0" index="45" datSetName="CSC103BDNPROT/LLN0$SG$Set218$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序差动定值" dataType="0" index="46" datSetName="CSC103BDNPROT/LLN0$SG$ZerDif$setMag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="电容电流补偿" dataType="0" index="47" datSetName="CSC103BDNPROT/LLN0$SG$Set28$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="远跳经启动闭锁" dataType="0" index="48" datSetName="CSC103BDNPROT/LLN0$SG$Set29$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="电压取线路PT" dataType="0" index="49" datSetName="CSC103BDNPROT/LLN0$SG$Set46$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="振荡闭锁元件" dataType="0" index="50" datSetName="CSC103BDNPROT/LLN0$SG$Set47$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="距离保护Ⅰ段" dataType="0" index="51" datSetName="CSC103BDNPROT/LLN0$SG$Set48$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="距离保护Ⅱ段" dataType="0" index="52" datSetName="CSC103BDNPROT/LLN0$SG$Set49$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="距离保护Ⅲ段" dataType="0" index="53" datSetName="CSC103BDNPROT/LLN0$SG$Set50$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序过流Ⅱ段" dataType="0" index="54" datSetName="CSC103BDNPROT/LLN0$SG$Set63$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序过流Ⅲ段" dataType="0" index="55" datSetName="CSC103BDNPROT/LLN0$SG$Set64$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序Ⅲ段经方向" dataType="0" index="56" datSetName="CSC103BDNPROT/LLN0$SG$Set65$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序加速段带方向" dataType="0" index="57" datSetName="CSC103BDNPROT/LLN0$SG$Set66$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="过流保护Ⅰ段" dataType="0" index="58" datSetName="CSC103BDNPROT/LLN0$SG$Set67$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="过流保护Ⅱ段" dataType="0" index="59" datSetName="CSC103BDNPROT/LLN0$SG$Set68$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相不一致" dataType="0" index="60" datSetName="CSC103BDNPROT/LLN0$SG$Set69$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相不一致经零序" dataType="0" index="61" datSetName="CSC103BDNPROT/LLN0$SG$Set70$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相不一致经负序" dataType="0" index="62" datSetName="CSC103BDNPROT/LLN0$SG$Set71$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相跳闸方式" dataType="0" index="63" datSetName="CSC103BDNPROT/LLN0$SG$Set79$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="重合闸检同期" dataType="0" index="64" datSetName="CSC103BDNPROT/LLN0$SG$Set80$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="重合闸检无压" dataType="0" index="65" datSetName="CSC103BDNPROT/LLN0$SG$Set81$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="距离Ⅱ段闭重" dataType="0" index="66" datSetName="CSC103BDNPROT/LLN0$SG$Set82$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="零序Ⅱ段闭重" dataType="0" index="67" datSetName="CSC103BDNPROT/LLN0$SG$Set83$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="多相故障闭重" dataType="0" index="68" datSetName="CSC103BDNPROT/LLN0$SG$Set84$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="单相TWJ启重合" dataType="0" index="69" datSetName="CSC103BDNPROT/LLN0$SG$Set85$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="三相TWJ启重合" dataType="0" index="70" datSetName="CSC103BDNPROT/LLN0$SG$Set86$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="单重检线路有压" dataType="0" index="71" datSetName="CSC103BDNPROT/LLN0$SG$Set87$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="纵联差动保护" dataType="0" index="72" datSetName="CSC103BDNPROT/LLN0$SG$Set96$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="快速距离保护" dataType="0" index="73" datSetName="CSC103BDNPROT/LLN0$SG$Set97$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="瞬时加速距离Ⅲ段" dataType="0" index="74" datSetName="CSC103BDNPROT/LLN0$SG$Set113$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="双通道" dataType="0" index="75" datSetName="CSC103BDNPROT/LLN0$SG$Set130$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="通道环回试验" dataType="0" index="76" datSetName="CSC103BDNPROT/LLN0$SG$Set131$setVal" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="无故障快速复归" dataType="0" index="77" datSetName="CSC103BDNPROT/LLN0$SG$Set132$setVal" maxVal="0"/>
+                </Smv>
+                <Smv attribId="10" datSet="CSC103BDNMEAS/LLN0$dsRelayAin" datCount="36">
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Ia" dataType="0" index="1" datSetName="CSC103BDNMEAS/MMXU1$MX$A$phsA$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Ia(角度)" dataType="0" index="2" datSetName="CSC103BDNMEAS/MMXU1$MX$A$phsA$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Ib" dataType="0" index="3" datSetName="CSC103BDNMEAS/MMXU1$MX$A$phsB$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Ib(角度)" dataType="0" index="4" datSetName="CSC103BDNMEAS/MMXU1$MX$A$phsB$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Ic" dataType="0" index="5" datSetName="CSC103BDNMEAS/MMXU1$MX$A$phsC$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Ic(角度)" dataType="0" index="6" datSetName="CSC103BDNMEAS/MMXU1$MX$A$phsC$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="3I0" dataType="0" index="7" datSetName="CSC103BDNMEAS/MMXU1$MX$A$neut$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="3I0(角度)" dataType="0" index="8" datSetName="CSC103BDNMEAS/MMXU1$MX$A$neut$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Ua" dataType="0" index="9" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$phsA$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Ua(角度)" dataType="0" index="10" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$phsA$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Ub" dataType="0" index="11" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$phsB$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Ub(角度)" dataType="0" index="12" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$phsB$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Uc" dataType="0" index="13" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$phsC$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Uc(角度)" dataType="0" index="14" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$phsC$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="3U0" dataType="0" index="15" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$neut$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="3U0(角度)" dataType="0" index="16" datSetName="CSC103BDNMEAS/MMXU2$MX$PhV$neut$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Ux" dataType="0" index="17" datSetName="CSC103BDNMEAS/MMXU3$MX$PhV$neut$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="Ux(角度)" dataType="0" index="18" datSetName="CSC103BDNMEAS/MMXU3$MX$PhV$neut$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="IaR" dataType="0" index="19" datSetName="CSC103BDNMEAS/MMXU4$MX$A$phsA$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="IaR(角度)" dataType="0" index="20" datSetName="CSC103BDNMEAS/MMXU4$MX$A$phsA$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="IbR" dataType="0" index="21" datSetName="CSC103BDNMEAS/MMXU4$MX$A$phsB$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="IbR(角度)" dataType="0" index="22" datSetName="CSC103BDNMEAS/MMXU4$MX$A$phsB$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="IcR" dataType="0" index="23" datSetName="CSC103BDNMEAS/MMXU4$MX$A$phsC$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="IcR(角度)" dataType="0" index="24" datSetName="CSC103BDNMEAS/MMXU4$MX$A$phsC$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="3I0R" dataType="0" index="25" datSetName="CSC103BDNMEAS/MMXU4$MX$A$neut$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="deg" dataSize="0" chnName="3I0R(角度)" dataType="0" index="26" datSetName="CSC103BDNMEAS/MMXU4$MX$A$neut$cVal$ang$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="P1" dataType="0" index="27" datSetName="CSC103BDNMEAS/MMXU5$MX$TotW$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="Q1" dataType="0" index="28" datSetName="CSC103BDNMEAS/MMXU5$MX$TotVAr$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="ICa" dataType="0" index="29" datSetName="CSC103BDNMEAS/MDIF1$MX$OpARem$phsA$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="ICb" dataType="0" index="30" datSetName="CSC103BDNMEAS/MDIF1$MX$OpARem$phsB$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="ICc" dataType="0" index="31" datSetName="CSC103BDNMEAS/MDIF1$MX$OpARem$phsC$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="IDa" dataType="0" index="32" datSetName="CSC103BDNMEAS/MDIF2$MX$OpARem$phsA$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="IDb" dataType="0" index="33" datSetName="CSC103BDNMEAS/MDIF2$MX$OpARem$phsB$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="IDc" dataType="0" index="34" datSetName="CSC103BDNMEAS/MDIF2$MX$OpARem$phsC$cVal$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="装置温度" dataType="0" index="35" datSetName="CSC103BDNMEAS/SIML1$MX$Tmp$mag$f" maxVal="0"/>
+                    <ChnInfo dataTypeStr="" minVal="0" strVal="" stepVal="0" unitStr="" dataSize="0" chnName="当前定值区号" dataType="0" index="36" datSetName="CSC103BDNMEAS/LLN0$MX$ActSGST$instMag$i" maxVal="0"/>
+                </Smv>
+                <Mms desc="" ethIndex="0" ip="192.168.1.22" destIp="" appid="196609" overtime="0" apName="" destMask="" name="" mask=""/>
+            </Ied>
+        </SubNet>
+        <SubNet desc="" type="SMV" name="SV"/>
+    </NetWork>
+</Cfg>

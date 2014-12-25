@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='GBK'?>
+<Cfg>
+    <PupInfo gsOnlyFlag="0" staName="CQ.scd" version="" reversion="" toolID="Nari-Relays SCL Configurator" fileId="龙荫变1019" bPriVal="0" fileImportTime="" netOverTime="0" timeDiff="0" bJustActAlarm="0" name="" svOnlyFlag="0" svSampleRate="0" fileTime="" />
+    <TimeSync mode="0" lostAlarm="0" ethIndex="0" bBelievePTP="0" mac="" delayAmend="0" />
+    <NetWork>
+        <SubNet desc="IED层" isShow="1" type="自定义类型" name="IED设备" >
+            <Ied desc="220kV陈家桥1线保护1(PCS931)" isShow="1" isMms="1" apName="" type="PCS931" id="1" name="PL2203A" manufacturer="南瑞继保" >
+                <Goose t0="5000" prefix="220kV陈家桥1线保护1(PCS931)" goId="PL2203API1/LLN0.gocb0" t1="2" gcRef="PL2203API1/LLN0$GO$gocb0" vLan="0" appid="268" priority="4" mac="01-0C-CD-01-01-0C" gsFrt="1" confRev="1" q="0" id="1" iedId="1" datSet="PL2203API1/LLN0$dsGOOSE0" datCount="18" >
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关1A相跳闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="1" ref="PI1/Break1PTRC1.Tr.phsA" valType2="0" >
+                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO1.stVal" inSvChnId="0" iedName="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" chnName="A跳1" inGsId="179" inGsChnId="1" inIedId="5" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关1A相跳闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="2" ref="PI1/Break1PTRC1.Tr.phsB" valType2="0" >
+                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO6.stVal" inSvChnId="0" iedName="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" chnName="B跳1" inGsId="0" inGsChnId="2" inIedId="5" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关1A相跳闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="3" ref="PI1/Break1PTRC1.Tr.phsC" valType2="0" >
+                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO11.stVal" inSvChnId="0" iedName="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" chnName="C跳1" inGsId="0" inGsChnId="3" inIedId="5" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="启动开关1A相失灵_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="4" ref="PI1/Break1PTRC1.StrBF.phsA" valType2="0" >
+                        <OutChnInfo extAddr="PI_PROT/GOINGGIO9.SPCSO2.stVal" inSvChnId="0" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路6跳A_GOOSE" inGsId="197" inGsChnId="4" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="启动开关1A相失灵_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="5" ref="PI1/Break1PTRC1.StrBF.phsB" valType2="0" >
+                        <OutChnInfo extAddr="PI_PROT/GOINGGIO9.SPCSO3.stVal" inSvChnId="0" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路6跳B_GOOSE" inGsId="0" inGsChnId="5" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="启动开关1A相失灵_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="6" ref="PI1/Break1PTRC1.StrBF.phsC" valType2="0" >
+                        <OutChnInfo extAddr="PI_PROT/GOINGGIO9.SPCSO4.stVal" inSvChnId="0" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路6跳C_GOOSE" inGsId="0" inGsChnId="6" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="闭锁开关1重合闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="7" ref="PI1/Break1PTRC1.BlkRecST.stVal" valType2="0" >
+                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO16.stVal" inSvChnId="0" iedName="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" chnName="闭重1" inGsId="0" inGsChnId="7" inIedId="5" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关2A相跳闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="8" ref="PI1/Break2PTRC1.Tr.phsA" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关2A相跳闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="9" ref="PI1/Break2PTRC1.Tr.phsB" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关2A相跳闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="10" ref="PI1/Break2PTRC1.Tr.phsC" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="启动开关2A相失灵_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="11" ref="PI1/Break2PTRC1.StrBF.phsA" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="启动开关2A相失灵_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="12" ref="PI1/Break2PTRC1.StrBF.phsB" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="启动开关2A相失灵_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="13" ref="PI1/Break2PTRC1.StrBF.phsC" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="闭锁开关2重合闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="14" ref="PI1/Break2PTRC1.BlkRecST.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="重合闸_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="15" ref="PI1/RREC1.Op.general" valType2="0" >
+                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO31.stVal" inSvChnId="0" iedName="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" chnName="重合1" inGsId="0" inGsChnId="15" inIedId="5" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="远传1命令输出_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="16" ref="PI1/RemTr1PSCH1.ProRx.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="远传2命令输出_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="17" ref="PI1/RemTr2PSCH1.ProRx.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="纵联通道告警_GOOSE" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="18" ref="PI1/GGIO4.Alm1.stVal" valType2="0" />
+                    <MapInfo Which="1" Pos="3" />
+                    <MapInfo Which="2" Pos="5" />
+                    <MapInfo Which="3" Pos="0" />
+                    <MapInfo Which="4" Pos="0" />
+                </Goose>
+                <In_Smv tAD="0" prefix="ML2203A:220kV 陈家桥1线合并单元1(PCS221G)" vlan="0" datsetDesc="" appid="16806" priority="0" mac="01-0C-CD-04-01-A6" confRev="1" id="59" iedId="7" svId="ML2203AMU/LLN0.smvcb0" datSet="ML2203AMU/LLN0$dsSV0" prV="0" chNums="24" remoteId="1" portindex="1" >
+                    <ChnInfo remoteIndex="0" secRated="100" freq="0" chnName="9-2数据额定延时" fPhase="0" type="1" mapv="0" index="1" flag="0" id="1" fVal="0" ref="MU/TVTR1.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO1.SAVSO1.instMag.i" inSvChnId="1" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="通道延时1" inGsId="0" inGsChnId="0" inIedId="1" inSvId="59" />
+                        <OutChnInfo extAddr="SVLD/SVINGGIO1.SAVSO1.instMag.i" inSvChnId="1" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="通道1延时" inGsId="0" inGsChnId="0" inIedId="3" inSvId="61" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINGGIO1.SAVSO7" inSvChnId="1" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06通道延时" inGsId="0" inGsChnId="0" inIedId="9" inSvId="65" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="3" secRated="5" freq="0" chnName="A相保护电流1_9-2" fPhase="0" type="2" mapv="0" index="2" flag="1" id="2" fVal="0" ref="MU/TCTR1.Amp" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINPA1TCTR1.Amp.instMag.i" inSvChnId="2" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1保护电流A相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINTCTR1.Amp.instMag.i" inSvChnId="2" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="保护电流A相(保护板)" inGsId="0" inGsChnId="0" inIedId="3" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINTCTR16.Amp" inSvChnId="2" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06A相保护电流" inGsId="0" inGsChnId="0" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="2" secRated="5" freq="0" chnName="A相保护电流2_9-2" fPhase="0" type="2" mapv="0" index="3" flag="1" id="3" fVal="0" ref="MU/TCTR1.AmpChB" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINPA1TCTR1.AmpChB.instMag.i" inSvChnId="3" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1启动电流A相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINTCTR1.AmpChB.instMag.i" inSvChnId="3" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="保护电流A相(起动板)" inGsId="0" inGsChnId="0" inIedId="3" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINTCTR16.AmpChB" inSvChnId="3" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06A相启动电流" inGsId="0" inGsChnId="0" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="5" secRated="5" freq="0" chnName="B相保护电流1_9-2" fPhase="0" type="2" mapv="0" index="4" flag="2" id="4" fVal="0" ref="MU/TCTR2.Amp" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINPB1TCTR1.Amp.instMag.i" inSvChnId="4" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1保护电流B相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINTCTR2.Amp.instMag.i" inSvChnId="4" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="保护电流B相(保护板)" inGsId="0" inGsChnId="0" inIedId="3" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINTCTR17.Amp" inSvChnId="4" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06B相保护电流" inGsId="0" inGsChnId="0" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="4" secRated="5" freq="0" chnName="B相保护电流2_9-2" fPhase="0" type="2" mapv="0" index="5" flag="2" id="5" fVal="0" ref="MU/TCTR2.AmpChB" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINPB1TCTR1.AmpChB.instMag.i" inSvChnId="5" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1启动电流B相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINTCTR2.AmpChB.instMag.i" inSvChnId="5" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="保护电流B相(起动板)" inGsId="0" inGsChnId="0" inIedId="3" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINTCTR17.AmpChB" inSvChnId="5" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06B相启动电流" inGsId="0" inGsChnId="0" inIedId="9" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINPBTCTR7.Amp2" inSvChnId="5" iedName="PM2201B:220kV母线保护2(SGB750)" chnName="电流采样值2" inGsId="0" inGsChnId="0" inIedId="10" inSvId="74" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="7" secRated="5" freq="0" chnName="C相保护电流1_9-2" fPhase="0" type="2" mapv="0" index="6" flag="3" id="6" fVal="0" ref="MU/TCTR3.Amp" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINPC1TCTR1.Amp.instMag.i" inSvChnId="6" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1保护电流C相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINTCTR3.Amp.instMag.i" inSvChnId="6" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="保护电流C相(保护板)" inGsId="0" inGsChnId="0" inIedId="3" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINTCTR18.Amp" inSvChnId="6" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06C相保护电流" inGsId="0" inGsChnId="0" inIedId="9" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINPCTCTR7.Amp1" inSvChnId="6" iedName="PM2201B:220kV母线保护2(SGB750)" chnName="电流采样值1" inGsId="0" inGsChnId="0" inIedId="10" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="6" secRated="5" freq="0" chnName="C相保护电流2_9-2" fPhase="0" type="2" mapv="0" index="7" flag="3" id="7" fVal="0" ref="MU/TCTR3.AmpChB" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINPC1TCTR1.AmpChB.instMag.i" inSvChnId="7" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1启动电流C相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD/SVINTCTR3.AmpChB.instMag.i" inSvChnId="7" iedName="PL2203C:220kV陈家桥1线辅助保护(PCS923)" chnName="保护电流C相(起动板)" inGsId="0" inGsChnId="0" inIedId="3" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD_PROT/SVINTCTR18.AmpChB" inSvChnId="7" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路06C相启动电流" inGsId="0" inGsChnId="0" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="9" secRated="5" freq="0" chnName="中性点零序电流1_9-2" fPhase="0" type="2" mapv="0" index="8" flag="4" id="8" fVal="0" ref="MU/TCTR4.Amp" priRated="1000" />
+                    <ChnInfo remoteIndex="8" secRated="5" freq="0" chnName="中性点零序电流2_9-2" fPhase="0" type="2" mapv="0" index="9" flag="4" id="9" fVal="0" ref="MU/TCTR4.AmpChB" priRated="1000" />
+                    <ChnInfo remoteIndex="11" secRated="5" freq="0" chnName="中性点间隙电流1_9-2" fPhase="0" type="2" mapv="0" index="10" flag="0" id="10" fVal="0" ref="MU/TCTR5.Amp" priRated="1000" />
+                    <ChnInfo remoteIndex="10" secRated="5" freq="0" chnName="中性点间隙电流2_9-2" fPhase="0" type="2" mapv="0" index="11" flag="0" id="11" fVal="0" ref="MU/TCTR5.AmpChB" priRated="1000" />
+                    <ChnInfo remoteIndex="0" secRated="5" freq="0" chnName="A相测量电流_9-2" fPhase="0" type="8" mapv="0" index="12" flag="1" id="12" fVal="0" ref="MU/TCTR6.Amp" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn0" inSvChnId="12" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="Ia" inGsId="0" inGsChnId="0" inIedId="4" inSvId="62" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="0" secRated="5" freq="0" chnName="B相测量电流_9-2" fPhase="0" type="8" mapv="0" index="13" flag="2" id="13" fVal="0" ref="MU/TCTR7.Amp" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn1" inSvChnId="13" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="Ib" inGsId="0" inGsChnId="0" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="0" secRated="5" freq="0" chnName="C相测量电流_9-2" fPhase="0" type="8" mapv="0" index="14" flag="3" id="14" fVal="0" ref="MU/TCTR8.Amp" priRated="1000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn2" inSvChnId="14" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="Ic" inGsId="0" inGsChnId="0" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="16" secRated="100" freq="0" chnName="A相保护电压1_9-2" fPhase="0" type="1" mapv="0" index="15" flag="1" id="15" fVal="0" ref="MU/TVTR2.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINUATVTR1.Vol.instMag.i" inSvChnId="15" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="保护电压A相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="15" secRated="100" freq="0" chnName="A相保护电压2_9-2" fPhase="0" type="1" mapv="0" index="16" flag="1" id="16" fVal="0" ref="MU/TVTR2.VolChB" priRated="220000" />
+                    <ChnInfo remoteIndex="0" secRated="100" freq="0" chnName="A相测量电压_9-2" fPhase="0" type="1" mapv="0" index="17" flag="1" id="17" fVal="0" ref="MU/TVTR3.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn3" inSvChnId="17" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="Ua" inGsId="0" inGsChnId="0" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="19" secRated="100" freq="0" chnName="B相保护电压1_9-2" fPhase="0" type="1" mapv="0" index="18" flag="2" id="18" fVal="0" ref="MU/TVTR4.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINUBTVTR1.Vol.instMag.i" inSvChnId="18" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="保护电压B相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="18" secRated="100" freq="0" chnName="B相保护电压2_9-2" fPhase="0" type="1" mapv="0" index="19" flag="2" id="19" fVal="0" ref="MU/TVTR4.VolChB" priRated="220000" />
+                    <ChnInfo remoteIndex="0" secRated="100" freq="0" chnName="B相测量电压_9-2" fPhase="0" type="1" mapv="0" index="20" flag="2" id="20" fVal="0" ref="MU/TVTR5.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn4" inSvChnId="20" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="Ub" inGsId="0" inGsChnId="0" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="22" secRated="100" freq="0" chnName="C相保护电压1_9-2" fPhase="0" type="1" mapv="0" index="21" flag="3" id="21" fVal="0" ref="MU/TVTR6.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINUCTVTR1.Vol.instMag.i" inSvChnId="21" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="保护电压C相" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="21" secRated="100" freq="0" chnName="C相保护电压2_9-2" fPhase="0" type="1" mapv="0" index="22" flag="3" id="22" fVal="0" ref="MU/TVTR6.VolChB" priRated="220000" />
+                    <ChnInfo remoteIndex="0" secRated="100" freq="0" chnName="C相测量电压_9-2" fPhase="0" type="1" mapv="0" index="23" flag="3" id="23" fVal="0" ref="MU/TVTR7.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn5" inSvChnId="23" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="Uc" inGsId="0" inGsChnId="0" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo remoteIndex="0" secRated="100" freq="0" chnName="同期电压1_9-2" fPhase="0" type="1" mapv="0" index="24" flag="0" id="24" fVal="0" ref="MU/TVTR8.Vol" priRated="220000" >
+                        <OutChnInfo extAddr="SVLD1/SVINUXTVTR1.Vol.instMag.i" inSvChnId="24" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="保护同期电压" inGsId="0" inGsChnId="0" inIedId="1" inSvId="0" />
+                        <OutChnInfo extAddr="SVLD1/SVINGGIO31.AnIn6" inSvChnId="24" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="同期电压" inGsId="0" inGsChnId="0" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                </In_Smv>
+                <In_Goose q="0" id="167" chNums="39" confRev="1" appid="370" datSet="IL2203ARPIT/LLN0$dsGOOSE0" gcRef="IL2203ARPIT/LLN0$GO$gocb0" remoteId="5" t0="5000" t1="2" priority="0" gsFrt="0" goId="IL2203ARPIT/LLN0.gocb0" vLan="0" iedId="5" datCount="0" mac="01-0C-CD-01-01-72" prefix="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" portindex="2">
+                    <InChnInfo intName="开关1A相跳闸位置_GOOSE" extName="A相断路器位置" intAddr="PI1/GOINGGIO1.DPCSO1.stVal" extAddr="RPIT/Q0AXCBR1.Pos.stVal" extId="5" outSvId="0" outSvChnId="0" id="1" outGsChnId="64" outIedId="5" outGsId="5" />
+                    <InChnInfo intName="开关1B相跳闸位置_GOOSE" extName="B相断路器位置" intAddr="PI1/GOINGGIO1.DPCSO2.stVal" extAddr="RPIT/Q0BXCBR1.Pos.stVal" extId="7" outSvId="0" outSvChnId="0" id="2" outGsChnId="66" outIedId="5" outGsId="5" />
+                    <InChnInfo intName="开关1C相跳闸位置_GOOSE" extName="C相断路器位置" intAddr="PI1/GOINGGIO1.DPCSO3.stVal" extAddr="RPIT/Q0CXCBR1.Pos.stVal" extId="9" outSvId="0" outSvChnId="0" id="3" outGsChnId="68" outIedId="5" outGsId="5" />
+                    <InChnInfo intName="闭锁重合闸1_GOOSE" extName="闭锁重合闸" intAddr="PI1/GOINGGIO3.SPCSO1.stVal" extAddr="RPIT/ProtInGGIO1.Ind1.stVal" extId="25" outSvId="0" outSvChnId="0" id="4" outGsChnId="84" outIedId="5" outGsId="5" />
+                    <InChnInfo intName="低气压闭锁重合闸_GOOSE" extName="开关压力低禁止重合闸" intAddr="PI1/GOINGGIO3.SPCSO6.stVal" extAddr="RPIT/ProtInGGIO1.Ind2.stVal" extId="26" outSvId="0" outSvChnId="0" id="5" outGsChnId="85" outIedId="5" outGsId="5" />
+              		  <Goose t0="5000" prefix="220kV 陈家桥1线智能终端1(PCS222B)" goId="IL2203ARPIT/LLN0.gocb0" t1="2" gcRef="IL2203ARPIT/LLN0$GO$gocb0" vLan="0" appid="370" priority="4" mac="01-0C-CD-01-01-72" gsFrt="1" confRev="1" q="0" id="5" iedId="5" datSet="IL2203ARPIT/LLN0$dsGOOSE0" datCount="39" >
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="总断路器位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="60" ref="RPIT/Q0XCBR1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind0.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="173" inGsChnId="60" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="总断路器位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="61" ref="RPIT/Q0XCBR1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="断路器位置逻辑与" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="62" ref="RPIT/Q0XCBR2.Pos.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="断路器位置逻辑或" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="63" ref="RPIT/Q0XCBR3.Pos.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="A相断路器位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="64" ref="RPIT/Q0AXCBR1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI1/GOINGGIO1.DPCSO1.stVal" inSvChnId="0" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1A相跳闸位置_GOOSE" inGsId="167" inGsChnId="64" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="A相断路器位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="65" ref="RPIT/Q0AXCBR1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="B相断路器位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="66" ref="RPIT/Q0BXCBR1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI1/GOINGGIO1.DPCSO2.stVal" inSvChnId="0" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1B相跳闸位置_GOOSE" inGsId="0" inGsChnId="66" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="B相断路器位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="67" ref="RPIT/Q0BXCBR1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="C相断路器位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="68" ref="RPIT/Q0CXCBR1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI1/GOINGGIO1.DPCSO3.stVal" inSvChnId="0" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="开关1C相跳闸位置_GOOSE" inGsId="0" inGsChnId="68" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="C相断路器位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="69" ref="RPIT/Q0CXCBR1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="Ⅰ母FDS1刀闸位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="70" ref="RPIT/QG1XSWI1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind1.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="0" inGsChnId="70" inIedId="4" inSvId="0" />
+                        <OutChnInfo extAddr="PI/GOINCSWI1.Pos.stVal" inSvChnId="0" iedName="ML2203A:220kV 陈家桥1线合并单元1(PCS221G)" chnName="母线1隔刀位置" inGsId="187" inGsChnId="70" inIedId="7" inSvId="0" />
+                        <OutChnInfo extAddr="PI_PROT/GOINGGIO2.DPCSO3.stVal" inSvChnId="0" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路6刀闸位置1_GOOSE" inGsId="191" inGsChnId="70" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="Ⅰ母FDS1刀闸位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="71" ref="RPIT/QG1XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="Ⅱ母FDS2刀闸位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="72" ref="RPIT/QG2XSWI1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind2.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="0" inGsChnId="72" inIedId="4" inSvId="0" />
+                        <OutChnInfo extAddr="PI/GOINCSWI2.Pos.stVal" inSvChnId="0" iedName="ML2203A:220kV 陈家桥1线合并单元1(PCS221G)" chnName="母线2隔刀位置" inGsId="0" inGsChnId="72" inIedId="7" inSvId="0" />
+                        <OutChnInfo extAddr="PI_PROT/GOINGGIO2.DPCSO4.stVal" inSvChnId="0" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路6刀闸位置2_GOOSE" inGsId="0" inGsChnId="72" inIedId="9" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="Ⅱ母FDS2刀闸位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="73" ref="RPIT/QG2XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="闸刀3位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="74" ref="RPIT/QG3XSWI1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind3.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="0" inGsChnId="74" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="闸刀3位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="75" ref="RPIT/QG3XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="闸刀4位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="76" ref="RPIT/QG4XSWI1.Pos.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="闸刀4位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="77" ref="RPIT/QG4XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="ES1地刀位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="78" ref="RPIT/QGD1XSWI1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind4.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="0" inGsChnId="78" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="ES1地刀位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="79" ref="RPIT/QGD1XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="ES2地刀位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="80" ref="RPIT/QGD2XSWI1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind5.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="0" inGsChnId="80" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="ES2地刀位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="81" ref="RPIT/QGD2XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="FES地刀位置" gstype_tp="13" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="82" ref="RPIT/QGD3XSWI1.Pos.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI/krGGIO51.Ind6.stVal" inSvChnId="0" iedName="CL2203:220kV陈家桥1线测控装置(E3171)" chnName="开入" inGsId="0" inGsChnId="82" inIedId="4" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="FES地刀位置" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="83" ref="RPIT/QGD3XSWI1.Pos.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="闭锁重合闸" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="84" ref="RPIT/ProtInGGIO1.Ind1.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI1/GOINGGIO3.SPCSO1.stVal" inSvChnId="0" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="闭锁重合闸1_GOOSE" inGsId="0" inGsChnId="84" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="开关压力低禁止重合闸" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="85" ref="RPIT/ProtInGGIO1.Ind2.stVal" valType2="0" >
+                        <OutChnInfo extAddr="PI1/GOINGGIO3.SPCSO6.stVal" inSvChnId="0" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="低气压闭锁重合闸_GOOSE" inGsId="0" inGsChnId="85" inIedId="1" inSvId="0" />
+                    </ChnInfo>
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="KKJ合后位置" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="86" ref="RPIT/ProtInGGIO1.Ind5.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="母联手合闭锁母差" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="87" ref="RPIT/ProtInGGIO1.Ind6.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="断路器三相不一致" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="88" ref="RPIT/ProtInGGIO1.Ind4.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="TJR三跳不启重合启失灵" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="89" ref="RPIT/ProtInGGIO1.Ind3.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="TJR三跳不启重合启失灵" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="90" ref="RPIT/ProtInGGIO1.Ind3.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="手合开入" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="91" ref="RPIT/BinInGGIO2.Ind12.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="手合开入" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="92" ref="RPIT/BinInGGIO2.Ind12.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="手跳开入" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="93" ref="RPIT/BinInGGIO2.Ind13.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="手跳开入" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="94" ref="RPIT/BinInGGIO2.Ind13.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="TJF三跳开入" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="95" ref="RPIT/BinInGGIO2.Ind14.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="TJF三跳开入" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="96" ref="RPIT/BinInGGIO2.Ind14.t" valType2="0" />
+                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="TJR开入" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="97" ref="RPIT/BinInGGIO3.Ind32.stVal" valType2="0" />
+                    <ChnInfo gstype_fv="4" strVal1="" strVal2="" chnName="TJR开入" gstype_tp="5" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="98" ref="RPIT/BinInGGIO3.Ind32.t" valType2="0" />
+                		</Goose>
+                </In_Goose>
+                <In_Goose q="0" id="168" chNums="4" confRev="1" appid="543" datSet="PM2201API_PROT/LLN0$dsGOOSE1" gcRef="PM2201API_PROT/LLN0$GO$gocb1" remoteId="14" t0="5000" t1="2" priority="0" gsFrt="0" goId="PM2201API_PROT/LLN0.gocb1" vLan="0" iedId="9" datCount="0" mac="01-0C-CD-01-02-1F" prefix="PM2201A:220kV母线保护1(PCS915)" portindex="3">
+                    <InChnInfo intName="发远方跳闸1_GOOSE" extName="支路6跳闸" intAddr="PI1/GOINGGIO3.SPCSO7.stVal" extAddr="PI_PROT/BusPTRC8.Tr.general" extId="3" outSvId="0" outSvChnId="0" id="1" outGsChnId="453" outIedId="9" outGsId="14" />
+		                <Goose t0="5000" prefix="220kV母线保护1(PCS915)" goId="PM2201API_PROT/LLN0.gocb0" t1="2" gcRef="PM2201API_PROT/LLN0$GO$gocb0" vLan="0" appid="287" priority="4" mac="01-0C-CD-01-01-1F" gsFrt="1" confRev="1" q="0" id="13" iedId="9" datSet="PM2201API_PROT/LLN0$dsGOOSE0" datCount="5" >
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="母联跳闸" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="446" ref="PI_PROT/BusPTRC1.Tr.general" valType2="0" >
+		                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO21.stVal" inSvChnId="0" iedName="IE2207A:220kV 母联智能终端1(PCS222B)" chnName="闭重三跳1" inGsId="293" inGsChnId="446" inIedId="38" inSvId="0" />
+		                    </ChnInfo>
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="支路2跳闸" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="447" ref="PI_PROT/BusPTRC2.Tr.general" valType2="0" >
+		                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO22.stVal" inSvChnId="0" iedName="IT2202A:#2主变高压侧智能终端1(PCS222B)" chnName="闭重三跳2" inGsId="305" inGsChnId="447" inIedId="44" inSvId="0" />
+		                    </ChnInfo>
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="支路2联跳" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="448" ref="PI_PROT/BusPTRC3.Tr.general" valType2="0" >
+		                        <OutChnInfo extAddr="PI_PROT/GOINGGIO1.SPCSO1.stVal" inSvChnId="0" iedName="PT2202A:#2主变保护1 (PCS978)" chnName="高压侧失灵联跳输入1" inGsId="302" inGsChnId="448" inIedId="42" inSvId="0" />
+		                    </ChnInfo>
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="支路3跳闸" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="449" ref="PI_PROT/BusPTRC4.Tr.general" valType2="0" />
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="支路3联跳" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="450" ref="PI_PROT/BusPTRC5.Tr.general" valType2="0" />
+		                </Goose>
+                </In_Goose>
+                <In_Goose q="0" id="169" chNums="3" confRev="1" appid="270" datSet="PL2203CGOLD/LLN0$dsGOOSE0" gcRef="PL2203CGOLD/LLN0$GO$gocb0" remoteId="3" t0="5000" t1="2" priority="0" gsFrt="0" goId="PL2203CGOLD/LLN0.gocb0" vLan="0" iedId="3" datCount="0" mac="01-0C-CD-01-01-0E" prefix="PL2203C:220kV陈家桥1线辅助保护(PCS923)" portindex="1" >
+                    <InChnInfo intName="发远方跳闸2_GOOSE" extName="GOOSE跳闸出口1" intAddr="PI1/GOINGGIO3.SPCSO8.stVal" extAddr="GOLD/TRIPPTRC1.Tr.general" extId="1" outSvId="0" outSvChnId="0" id="1" outGsChnId="39" outIedId="3" outGsId="3" />
+		                <Goose t0="5000" prefix="220kV陈家桥1线辅助保护(PCS923)" goId="PL2203CGOLD/LLN0.gocb0" t1="2" gcRef="PL2203CGOLD/LLN0$GO$gocb0" vLan="0" appid="270" priority="4" mac="01-0C-CD-01-01-0E" gsFrt="1" confRev="1" q="0" id="3" iedId="3" datSet="PL2203CGOLD/LLN0$dsGOOSE0" datCount="3" >
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="GOOSE跳闸出口1" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="39" ref="GOLD/TRIPPTRC1.Tr.general" valType2="0" >
+		                        <OutChnInfo extAddr="PI1/GOINGGIO3.SPCSO8.stVal" inSvChnId="0" iedName="PL2203A:220kV陈家桥1线保护1(PCS931)" chnName="发远方跳闸2_GOOSE" inGsId="169" inGsChnId="39" inIedId="1" inSvId="0" />
+		                        <OutChnInfo extAddr="PI1/GOINGGIO4.SPCSO2.stVal" inSvChnId="0" iedName="PL2203B:220kV陈家桥1线保护2(PCS902)" chnName="@B01.kgl28@其他保护停信_GOOSE" inGsId="172" inGsChnId="39" inIedId="2" inSvId="0" />
+		                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO22.stVal" inSvChnId="0" iedName="IL2203A:220kV 陈家桥1线智能终端1(PCS222B)" chnName="闭重三跳2" inGsId="181" inGsChnId="39" inIedId="5" inSvId="0" />
+		                        <OutChnInfo extAddr="RPIT/GOINGGIO1.SPCSO22.stVal" inSvChnId="0" iedName="IL2203B:220kV 陈家桥1线智能终端2(PCS222B)" chnName="闭重三跳2" inGsId="185" inGsChnId="39" inIedId="6" inSvId="0" />
+		                    </ChnInfo>
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="GOOSE起动失灵" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="40" ref="GOLD/TRIPPTRC1.StrBF.general" valType2="0" >
+		                        <OutChnInfo extAddr="PI_PROT/GOINGGIO9.SPCSO1.stVal" inSvChnId="0" iedName="PM2201A:220kV母线保护1(PCS915)" chnName="支路6三跳_GOOSE" inGsId="203" inGsChnId="40" inIedId="9" inSvId="0" />
+		                    </ChnInfo>
+		                    <ChnInfo gstype_fv="1" strVal1="" strVal2="" chnName="GOOSE跳闸出口2" gstype_tp="1" gstype_bs="0" type="0" stVal="" mapv="0" flag="0" valType1="0" id="41" ref="GOLD/TRIPPTRC2.Tr.general" valType2="0" />
+		                </Goose>
+                </In_Goose>
+            </Ied>
+        </SubNet>
+    </NetWork>
+</Cfg>

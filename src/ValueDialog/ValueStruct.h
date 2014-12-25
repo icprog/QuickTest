@@ -1,0 +1,6 @@
+#ifndef VALUESTRUCT_H
+#define VALUESTRUCT_H
+
+
+
+#endif // VALUESTRUCT_H

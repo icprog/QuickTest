@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestTemplate build="16:18:35">
+    <Sequence>
+        <Test name="纵联差动" fullName="线路保护|主保护|纵联差动" type="1101" waite="true" autoplate="false">
+            <SoftPlate>
+                <Before>
+                    <Plate desc="纵联差动保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna2$stVal"/>
+                    <Plate desc="距离保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna3$stVal"/>
+                    <Plate desc="零序保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna4$stVal"/>
+                    <Plate desc="过流保护(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$OCSEna$stVal"/>
+                    <Plate desc="光纤通道一(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna7$stVal"/>
+                    <Plate desc="光纤通道二(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna8$stVal"/>
+                    <Plate desc="停用重合闸(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$RecSSEna$stVal"/>
+                    <Plate desc="远方修改定值(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna15$stVal"/>
+                </Before>
+                <After>
+                    <Plate desc="纵联差动保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna2$stVal"/>
+                    <Plate desc="距离保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna3$stVal"/>
+                    <Plate desc="零序保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna4$stVal"/>
+                    <Plate desc="过流保护(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$OCSEna$stVal"/>
+                    <Plate desc="光纤通道一(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna7$stVal"/>
+                    <Plate desc="光纤通道二(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna8$stVal"/>
+                    <Plate desc="停用重合闸(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$RecSSEna$stVal"/>
+                    <Plate desc="远方修改定值(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna15$stVal"/>
+                </After>
+            </SoftPlate>
+            <State num="1" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="57.735" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="2"/>
+                </Condition>
+            </State>
+            <State num="2" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="4.75" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="4.75" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="4.75" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="0" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="0" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="25" jump="3"/>
+                    <Action bin1="true" bin2="false" bin3="false" bin4="false" jump="3"/>
+                </Condition>
+            </State>
+            <State num="3" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="57.735" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="4"/>
+                </Condition>
+            </State>
+            <State num="4" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="5.25" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="5.25" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="5.25" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="0" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="0" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="25" jump="5"/>
+                    <Action bin1="true" bin2="false" bin3="false" bin4="false" jump="5"/>
+                </Condition>
+            </State>
+        </Test>
+        <Test name="零序差动" fullName="线路保护|主保护|零序差动" type="1102" waite="true" autoplate="false">
+            <SoftPlate>
+                <Before>
+                    <Plate desc="纵联差动保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna2$stVal"/>
+                    <Plate desc="距离保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna3$stVal"/>
+                    <Plate desc="零序保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna4$stVal"/>
+                    <Plate desc="过流保护(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$OCSEna$stVal"/>
+                    <Plate desc="光纤通道一(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna7$stVal"/>
+                    <Plate desc="光纤通道二(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna8$stVal"/>
+                    <Plate desc="停用重合闸(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$RecSSEna$stVal"/>
+                    <Plate desc="远方修改定值(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna15$stVal"/>
+                </Before>
+                <After>
+                    <Plate desc="纵联差动保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna2$stVal"/>
+                    <Plate desc="距离保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna3$stVal"/>
+                    <Plate desc="零序保护(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna4$stVal"/>
+                    <Plate desc="过流保护(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$OCSEna$stVal"/>
+                    <Plate desc="光纤通道一(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna7$stVal"/>
+                    <Plate desc="光纤通道二(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna8$stVal"/>
+                    <Plate desc="停用重合闸(软)" value="0" ref="CSC103BDNPROT/LLN0$ST$RecSSEna$stVal"/>
+                    <Plate desc="远方修改定值(软)" value="1" ref="CSC103BDNPROT/LLN0$ST$SoftEna15$stVal"/>
+                </After>
+            </SoftPlate>
+            <State num="1" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="57.735" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="2"/>
+                </Condition>
+            </State>
+            <State num="2" faultType="0">
+                <SMV>
+                    <Chn class="i" no="1" value="21.85" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="0" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="25" jump="3"/>
+                    <Action bin1="true" bin2="false" bin3="false" bin4="false" jump="3"/>
+                </Condition>
+            </State>
+            <State num="3" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="57.735" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="4"/>
+                </Condition>
+            </State>
+            <State num="4" faultType="0">
+                <SMV>
+                    <Chn class="i" no="1" value="24.15" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="0" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="0" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="25" jump="5"/>
+                    <Action bin1="true" bin2="false" bin3="false" bin4="false" jump="5"/>
+                </Condition>
+            </State>
+        </Test>
+        <Test name="纵联方向" fullName="线路保护|主保护|纵联方向" type="1106" waite="true" autoplate="false">
+            <SoftPlate>
+                <Before/>
+                <After/>
+            </SoftPlate>
+            <State num="1" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="57.735" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="2"/>
+                </Condition>
+            </State>
+            <State num="2" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="21" phase="-33" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="-153" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="87" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="99.9495" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="3"/>
+                    <Action bin1="true" bin2="false" bin3="false" bin4="false" jump="3"/>
+                </Condition>
+            </State>
+            <State num="3" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="57.735" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="4"/>
+                </Condition>
+            </State>
+            <State num="4" faultType="11">
+                <SMV>
+                    <Chn class="i" no="1" value="21" phase="-33" frequency="50" type="AC"/>
+                    <Chn class="i" no="2" value="0" phase="-153" frequency="50" type="AC"/>
+                    <Chn class="i" no="3" value="0" phase="87" frequency="50" type="AC"/>
+                    <Chn class="i" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="1" value="110.471" phase="0" frequency="50" type="AC"/>
+                    <Chn class="v" no="2" value="57.735" phase="-120" frequency="50" type="AC"/>
+                    <Chn class="v" no="3" value="57.735" phase="120" frequency="50" type="AC"/>
+                    <Chn class="v" no="4" value="0" phase="0" frequency="50" type="AC"/>
+                </SMV>
+                <BinOut>
+                    <Which no="1" value="0"/>
+                    <Which no="2" value="0"/>
+                    <Which no="3" value="0"/>
+                    <Which no="4" value="0"/>
+                </BinOut>
+                <Condition>
+                    <Time value="5" jump="5"/>
+                    <Action bin1="true" bin2="false" bin3="false" bin4="false" jump="5"/>
+                </Condition>
+            </State>
+        </Test>
+    </Sequence>
+</TestTemplate>
